@@ -1,122 +1,111 @@
-import os
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+import torch
+import pandas as pd
 import time
 import json
-import requests
-import pandas as pd
+import re
 from dotenv import load_dotenv
-import torch
-from transformers import pipeline
 
-pipe = pipeline("text-generation", model="HuggingFaceH4/zephyr-7b-beta", torch_dtype=torch.bfloat16, device_map="auto")
-# Create prompt with question, answer, level
+# Load the correct T5-small model
+model_name = "google-t5/t5-small"  # Correct identifier
+print("Loading t5-small model...")
+
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
+
 def create_prompt(question, answer, level):
-    prompt = f"""
-You are an Excel interview evaluator. 
-Evaluate the following answer to the question on four criteria:
-- correctness: Is it factually correct? (0 to 10)
-- clarity: Is it explained clearly and structured? (0 to 10)
-- terminology: Does it use the most correct and relevant terminologies? (0 to 10)
-- efficiency: Does it use the most efficient Excel approach? (0 to 10)
-Return only JSON in this format:
-{{
-  "correctness": 0.0-10.0,
-  "clarity": 0.0-10.0,
-  "terminology": 0.0-10.0,
-  "keywords": "relevant keywords used",
-  "efficiency": 0.0-10.0
-}}
+    # T5 works best with simple, clear instructions
+    return f"Evaluate Excel answer. Question: {question} Answer: {answer} Level: {level}. Rate correctness clarity terminology efficiency 0-10:"
 
-Question: "{question}"
-Answer: "{answer}"
-Level: "{level}"
-"""
-    return prompt
-
-# Send prompt to HuggingFace API get response as JSON
-def query_huggingface_api(prompt, model_name, hf_api_token=None):
-    headers = {"Authorization": f"Bearer {hf_api_token}"} if hf_api_token else {}
-
-    response = pipe(prompt, max_new_tokens=256, do_sample=True, temperature=0.7, return_full_text=False)
-
-    if response.status_code != 200:
-        raise Exception(f"Request failed: {response.status_code}, {response.text}")
-
-    result = response.json()
-
-    # Extract generated text
-    if isinstance(result, list):
-        generated_text = result[0].get("generated_text", "")
-    elif isinstance(result, dict):
-        generated_text = result.get("generated_text", "")
-    else:
-        generated_text = str(result)
-
-    # Try extracting JSON from response
-    json_start = generated_text.find('{')
-    json_end = generated_text.rfind('}') + 1
-    if json_start != -1 and json_end != -1:
-        json_str = generated_text[json_start:json_end]
-        try:
-            return json.loads(json_str)
-        except json.JSONDecodeError:
-            raise Exception("Failed to parse JSON from model output.")
-    else:
-        raise Exception("No JSON object found in model output.")
+def query_local_model(prompt):
+    inputs = tokenizer(prompt, return_tensors="pt", truncation=True, max_length=512)
+    
+    with torch.no_grad():
+        outputs = model.generate(
+            **inputs,
+            max_new_tokens=100,
+            temperature=0.1,
+            do_sample=False,
+            pad_token_id=tokenizer.pad_token_id
+        )
+    
+    response = tokenizer.decode(outputs[0], skip_special_tokens=True)
+    print(f"Raw model response: {response}")  # Debug output
+    
+    # Extract numbers from response - only return if we get valid scores
+    try:
+        numbers = re.findall(r'\d+(?:\.\d+)?', response)
+        numbers = [float(n) for n in numbers if 0 <= float(n) <= 10]  # Only valid scores 0-10
+        
+        # We need at least 4 valid scores
+        if len(numbers) >= 4:
+            # Extract keywords (meaningful words from response)
+            words = re.findall(r'[a-zA-Z]+', response.lower())
+            keywords = ' '.join([w for w in words if len(w) > 3 and w not in ['question', 'answer', 'level', 'rate', 'excel']][:5])
+            
+            return {
+                "correctness": numbers[0],
+                "clarity": numbers[1],
+                "terminology": numbers[2],
+                "efficiency": numbers[3],
+                "keywords": keywords if keywords else None
+            }
+    except Exception as e:
+        print(f"Parsing error: {e}")
+    
+    # Return None if we can't extract valid scores
+    return None
 
 if __name__ == "__main__":
     load_dotenv()
-    api_token = os.getenv("EXCEL_INTERVIEW_AT")
-
-    # ✅ Updated model
-    model_name = "HuggingFaceH4/zephyr-7b-beta"
-
+    
     csv_file = "excel_qa_cleaned.csv"
     df = pd.read_csv(csv_file)
-
     annotated_records = []
-
+    failed_count = 0
+    
+    print(f"Processing {len(df)} rows with t5-small...")
+    
     for idx, row in df.iterrows():
         question = row.get('Question', '')
         answer = row.get('Answer', '')
         level = row.get('Level', '')
-
-        if pd.isna(answer) or answer.strip() == '':
-            print(f"Skipping row {idx+1} due to empty answer\n")
+        
+        if pd.isna(answer) or not answer.strip():
+            print(f"Skipping row {idx+1}: empty answer")
             continue
-
-        messages = create_prompt(question, answer, level)
-        prompt = pipe.tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
-        try:
-            evaluation = query_huggingface_api(prompt, model_name, api_token)
-
-            if evaluation:
-                record = {
-                    "question": question,
-                    "answer": answer,
-                    "level": level,
-                    "correctness": evaluation.get("correctness", None),
-                    "clarity": evaluation.get("clarity", None),
-                    "terminology": evaluation.get("terminology", None),
-                    "efficiency": evaluation.get("efficiency", None),
-                    "keywords": evaluation.get("keywords", "")
-                }
-                annotated_records.append(record)
-
-                print(f"Row {idx+1} annotated successfully")
-            else:
-                print(f"Row {idx+1} returned no evaluation")
-
-        except Exception as e:
-            print(f"Error evaluating row {idx+1}: {str(e)}")
-
-        time.sleep(2)
-
-    # Save annotated data as JSON
-    with open("annotated_excel_qa.json", "w", encoding="utf-8") as f_json:
-        json.dump(annotated_records, f_json, indent=2)
-
-    # Save annotated data as CSV
-    annotated_df = pd.DataFrame(annotated_records)
-    annotated_df.to_csv("annotated_excel_qa.csv", index=False)
-
-    print("✅ Annotated data saved to annotated_excel_qa.json and annotated_excel_qa.csv")
+            
+        prompt = create_prompt(question, answer, level)
+        evaluation = query_local_model(prompt)
+        
+        if evaluation is not None:
+            record = {
+                "question": question,
+                "answer": answer,
+                "level": level,
+                "correctness": evaluation.get("correctness"),
+                "clarity": evaluation.get("clarity"), 
+                "terminology": evaluation.get("terminology"),
+                "efficiency": evaluation.get("efficiency"),
+                "keywords": evaluation.get("keywords")
+            }
+            annotated_records.append(record)
+            print(f"✅ Row {idx+1} annotated successfully: {evaluation.get('correctness')}/{evaluation.get('clarity')}/{evaluation.get('terminology')}/{evaluation.get('efficiency')}")
+        else:
+            failed_count += 1
+            print(f"❌ Row {idx+1} failed: No valid scores extracted")
+        
+        time.sleep(0.1)
+    
+    # Save only successful annotations
+    if annotated_records:
+        pd.DataFrame(annotated_records).to_csv("annotated_excel_qa.csv", index=False)
+        with open("annotated_excel_qa.json", "w") as f:
+            json.dump(annotated_records, f, indent=2)
+        
+        print(f"\n✅ Annotation complete!")
+        print(f"✅ Successfully annotated: {len(annotated_records)} records")
+        print(f"❌ Failed annotations: {failed_count} records")
+        print(f"📈 Success rate: {len(annotated_records)/(len(df)-failed_count)*100:.1f}%")
+    else:
+        print(f"\n❌ No valid annotations generated. Consider using a different model.")

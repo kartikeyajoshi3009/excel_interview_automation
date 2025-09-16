@@ -1,0 +1,482 @@
+[
+  {
+    "question": "7. How do you use Undo and Redo in Excel?",
+    "answer": "Undo allows you to reverse your last action (Ctrl + Z), while Redo re-applies an undone action (Ctrl + Y). These shortcuts are useful for correcting mistakes or reapplying changes.",
+    "level": "",
+    "correctness": 7.0,
+    "clarity": 7.0,
+    "terminology": 0.0,
+    "efficiency": 10.0,
+    "keywords": "undo redo undo redo undo"
+  },
+  {
+    "question": "10. How do you merge cells in Excel?",
+    "answer": "Tomerge cells, select the cells you want to combine and clickMerge & Centerin the Home tab. This is often used for creating headings or labels.",
+    "level": "",
+    "correctness": 10.0,
+    "clarity": 10.0,
+    "terminology": 0.0,
+    "efficiency": 10.0,
+    "keywords": "cells want combine merge cells"
+  },
+  {
+    "question": "12. How do you wrap text in a cell?",
+    "answer": "Towrap text, select a cell and clickWrap Textin the Home tab. This adjusts the cell content to fit within its boundaries without spilling over into adjacent cells.",
+    "level": "",
+    "correctness": 0.0,
+    "clarity": 10.0,
+    "terminology": 0.0,
+    "efficiency": 10.0,
+    "keywords": "correctness clarity terminology efficiency correctness"
+  },
+  {
+    "question": "13. What are cell references in Excel?",
+    "answer": "Cell referencesspecify a cell\u2019s location in a formula. Relative references (e.g., A1) adjust when copied, absolute references (e.g., $A$1) remain fixed, and mixed references (e.g., $A1) partially adjust.",
+    "level": "",
+    "correctness": 1.0,
+    "clarity": 1.0,
+    "terminology": 1.0,
+    "efficiency": 0.0,
+    "keywords": "what cell references cell referencesspecify"
+  },
+  {
+    "question": "14. How do you delete a worksheet?",
+    "answer": "Right-click the sheet tab and selectDelete.Deleting a sheetpermanently removes its data, so it\u2019s recommended to back up your workbook first.",
+    "level": "",
+    "correctness": 0.0,
+    "clarity": 10.0,
+    "terminology": 0.0,
+    "efficiency": 10.0,
+    "keywords": "correctness clarity terminology efficiency correctness"
+  },
+  {
+    "question": "16. What is a formula in Excel?",
+    "answer": "A formula is an expression that calculates the value of a cell. It begins with=and can include operators, cell references, and functions (e.g.,=A1+B1).",
+    "level": "",
+    "correctness": 1.0,
+    "clarity": 1.0,
+    "terminology": 0.0,
+    "efficiency": 10.0,
+    "keywords": "what formula formula expression that"
+  },
+  {
+    "question": "17. What is conditional formatting in Excel?",
+    "answer": "Conditional formattinghighlights cells based on rules you set. For example, you can apply red shading to cells with values less than 50 usingHome > Conditional Formatting.",
+    "level": "",
+    "correctness": 0.0,
+    "clarity": 10.0,
+    "terminology": 0.0,
+    "efficiency": 10.0,
+    "keywords": "correctness clarity terminology efficiency correctness"
+  },
+  {
+    "question": "19. How do you apply filters in Excel?",
+    "answer": "To filter data, select your dataset and clickData > Filter. Dropdown arrows appear, allowing you to filter rows based on specific criteria.",
+    "level": "",
+    "correctness": 0.0,
+    "clarity": 10.0,
+    "terminology": 0.0,
+    "efficiency": 10.0,
+    "keywords": "filter data select your dataset"
+  },
+  {
+    "question": "20. What is the VLOOKUP function?",
+    "answer": "VLOOKUPsearches for a value in the first column of a table and returns a value from a specified column in the same row. For example,=VLOOKUP(\"Apple\", A1:C10, 2, FALSE)looks for \"Apple\" in column A and returns the corresponding value from column B.",
+    "level": "",
+    "correctness": 0.0,
+    "clarity": 10.0,
+    "terminology": 0.0,
+    "efficiency": 10.0,
+    "keywords": "vlookupsearches value first column table"
+  },
+  {
+    "question": "24. How do you remove duplicates in Excel?",
+    "answer": "Select your data, then go toData > Remove Duplicates. This helps clean datasets by eliminating redundant entries based on selected columns.",
+    "level": "",
+    "correctness": 0.0,
+    "clarity": 10.0,
+    "terminology": 0.0,
+    "efficiency": 10.0,
+    "keywords": "correctness clarity terminology efficiency correctness"
+  },
+  {
+    "question": "25. What is data validation?",
+    "answer": "Data validationrestricts data entry to specified types or ranges. For instance, you can limit a cell to accept only whole numbers between 1 and 100.",
+    "level": "",
+    "correctness": 0.0,
+    "clarity": 10.0,
+    "terminology": 0.0,
+    "efficiency": 10.0,
+    "keywords": "correctness clarity terminology efficiency correctness"
+  },
+  {
+    "question": "30. How do INDEX and MATCH work together?",
+    "answer": "INDEXreturns the value of a cell at a specified row and column, while MATCH finds the position of a value in a range. Combined, they perform advanced lookups. For example,=INDEX(A1:C10, MATCH(\"Apple\", A1:A10, 0), 2)finds \"Apple\" in column A and returns the corresponding value from column B.",
+    "level": "",
+    "correctness": 1.0,
+    "clarity": 10.0,
+    "terminology": 1.0,
+    "efficiency": 10.0,
+    "keywords": "index match work together indexreturns"
+  },
+  {
+    "question": "33. What is the TEXT function?",
+    "answer": "The TEXT function converts a number to text in a specified format. For example,=TEXT(A1, \"MM/DD/YYYY\")converts a date into a readable format like 01/01/2025.",
+    "level": "",
+    "correctness": 1.0,
+    "clarity": 1.0,
+    "terminology": 1.0,
+    "efficiency": 0.0,
+    "keywords": "text function converts number text"
+  },
+  {
+    "question": "42. What is the NETWORKDAYS function?",
+    "answer": "The NETWORKDAYS function calculates the number of working days between two dates, excluding weekends and holidays. For example,=NETWORKDAYS(A1, A2, Holidays)returns the count of workdays between A1 and A2.",
+    "level": "",
+    "correctness": 1.0,
+    "clarity": 2.0,
+    "terminology": 1.0,
+    "efficiency": 2.0,
+    "keywords": "networkdays function calculates number working"
+  },
+  {
+    "question": "45. How do you calculate CAGR (Compound Annual Growth Rate) in Excel?",
+    "answer": "CAGR is calculated using the formula=(Ending Value / Starting Value)^(1/Number of Years) - 1. For example,=(20000 / 10000)^(1/5) - 1calculates a 14.87% CAGR over five years.",
+    "level": "",
+    "correctness": 1.0,
+    "clarity": 1.0,
+    "terminology": 1.0,
+    "efficiency": 5.0,
+    "keywords": "calculate cagr compound annual growth"
+  },
+  {
+    "question": "50. How do you use the DATEDIF function?",
+    "answer": "DATEDIF calculates the difference between two dates in years, months, or days. For example,=DATEDIF(A1, B1, \"Y\")returns the number of years between two dates.",
+    "level": "",
+    "correctness": 1.0,
+    "clarity": 1.0,
+    "terminology": 0.0,
+    "efficiency": 10.0,
+    "keywords": "datedif returns number years between"
+  },
+  {
+    "question": "51. What is the FILTER function?",
+    "answer": "The FILTER function dynamically returns rows or columns based on criteria. For example,=FILTER(A1:A10, B1:B10=\"Yes\")filters rows where column B equals \"Yes.\"",
+    "level": "",
+    "correctness": 0.0,
+    "clarity": 10.0,
+    "terminology": 0.0,
+    "efficiency": 10.0,
+    "keywords": "correctness clarity terminology efficiency correctness"
+  },
+  {
+    "question": "66. How do you split names into first and last names?",
+    "answer": "UseText to Columnsor formulas like=LEFT(A1, FIND(\" \", A1)-1)for the first name and=RIGHT(A1, LEN(A1)-FIND(\" \", A1))for the last name.",
+    "level": "",
+    "correctness": 1.0,
+    "clarity": 1.0,
+    "terminology": 1.0,
+    "efficiency": 1.0,
+    "keywords": "usetext columnsor formulas like left"
+  },
+  {
+    "question": "68. What is the MAKEARRAY function in Excel?",
+    "answer": "MAKEARRAY creates an array based on a custom formula. For example,=MAKEARRAY(3, 3, LAMBDA(row, col, row*col))generates a 3x3 array with the product of row and column numbers.",
+    "level": "",
+    "correctness": 3.0,
+    "clarity": 3.0,
+    "terminology": 3.0,
+    "efficiency": 3.0,
+    "keywords": "what makearray function makearray creates"
+  },
+  {
+    "question": "70. How do you calculate moving averages?",
+    "answer": "UseAVERAGEwith dynamic ranges or the Analysis ToolPak for a built-in Moving Average feature. For example,=AVERAGE(A1:A3)calculates a 3-period moving average.",
+    "level": "",
+    "correctness": 1.0,
+    "clarity": 3.0,
+    "terminology": 3.0,
+    "efficiency": 0.0,
+    "keywords": "average calculates period moving average"
+  },
+  {
+    "question": "79. How do you refresh Excel data connected to Power BI?",
+    "answer": "UseData > Refresh Allto sync Excel files with live Power BI datasets. Ensure the dataset is stored in the cloud for automatic updates.",
+    "level": "",
+    "correctness": 0.0,
+    "clarity": 10.0,
+    "terminology": 0.0,
+    "efficiency": 10.0,
+    "keywords": "correctness clarity terminology efficiency correctness"
+  },
+  {
+    "question": "90. How do you identify outliers in a dataset?",
+    "answer": "Use statistical formulas like=QUARTILEand calculate the interquartile range (IQR). Highlight values outside the range with conditional formatting.",
+    "level": "",
+    "correctness": 0.0,
+    "clarity": 10.0,
+    "terminology": 0.0,
+    "efficiency": 10.0,
+    "keywords": "correctness clarity terminology efficiency"
+  },
+  {
+    "question": "91. What is the purpose of dynamic named ranges in Excel?",
+    "answer": "Dynamic named ranges automatically adjust their size when new data is added. Use theOFFSETfunction to define them, such as=OFFSET(A1, 0, 0, COUNTA(A:A)).",
+    "level": "",
+    "correctness": 0.0,
+    "clarity": 10.0,
+    "terminology": 0.0,
+    "efficiency": 10.0,
+    "keywords": "correctness clarity terminology efficiency correctness"
+  },
+  {
+    "question": "99. What is the difference between absolute and relative cell references?",
+    "answer": "Absolute references ($A$1) remain constant when copied, while relative references (A1) adjust relative to their new location.",
+    "level": "",
+    "correctness": 1.0,
+    "clarity": 1.0,
+    "terminology": 0.0,
+    "efficiency": 10.0,
+    "keywords": "absolute references remain constant when"
+  },
+  {
+    "question": "102. How do you calculate the correlation between two datasets?",
+    "answer": "Use theCORRELfunction to calculate the correlation coefficient. For example,=CORREL(A1:A10, B1:B10)measures the strength of the relationship between two variables.",
+    "level": "",
+    "correctness": 1.0,
+    "clarity": 10.0,
+    "terminology": 1.0,
+    "efficiency": 10.0,
+    "keywords": "thecorrelfunction calculate correlation coefficient example"
+  },
+  {
+    "question": "111. How do you use the SEQUENCE function in Excel 365?",
+    "answer": "The SEQUENCE function generates a numeric array in rows and columns. For example,=SEQUENCE(5, 2)creates a 5x2 array with sequential numbers starting from 1.",
+    "level": "",
+    "correctness": 5.0,
+    "clarity": 2.0,
+    "terminology": 5.0,
+    "efficiency": 2.0,
+    "keywords": "sequence function sequence function generates"
+  },
+  {
+    "question": "113. How do you use the RANDARRAY function?",
+    "answer": "RANDARRAY generates an array of random numbers within a specified range. For example,=RANDARRAY(5, 1, 1, 100, TRUE)creates 5 random integers between 1 and 100.",
+    "level": "",
+    "correctness": 5.0,
+    "clarity": 1.0,
+    "terminology": 1.0,
+    "efficiency": 5.0,
+    "keywords": "randarray generates array random numbers"
+  },
+  {
+    "question": "114. How do you use the TEXTJOIN function?",
+    "answer": "TEXTJOIN combines text from multiple ranges or arrays with a specified delimiter. For example,=TEXTJOIN(\", \", TRUE, A1:A5)joins text in A1 through A5, separated by commas.",
+    "level": "",
+    "correctness": 1.0,
+    "clarity": 5.0,
+    "terminology": 1.0,
+    "efficiency": 5.0,
+    "keywords": "textjoin combines text from multiple"
+  },
+  {
+    "question": "115. How do you use the TOROW function?",
+    "answer": "The TOROW function converts a range of cells into a single row. For example,=TOROW(A1:C3)consolidates the range A1:C3 into a horizontal array.",
+    "level": "",
+    "correctness": 1.0,
+    "clarity": 3.0,
+    "terminology": 1.0,
+    "efficiency": 3.0,
+    "keywords": "torow function converts range cells"
+  },
+  {
+    "question": "116. How do you use the TOCOL function?",
+    "answer": "The TOCOL function converts a range of cells into a single column. For example,=TOCOL(A1:C3)consolidates the range A1:C3 into a vertical array.",
+    "level": "",
+    "correctness": 1.0,
+    "clarity": 3.0,
+    "terminology": 1.0,
+    "efficiency": 3.0,
+    "keywords": "tocol function converts range cells"
+  },
+  {
+    "question": "119. How do you create a cumulative sum in Excel?",
+    "answer": "Use a running total formula like=SUM($A$1:A1)and drag it down to calculate the cumulative total for each row.",
+    "level": "",
+    "correctness": 1.0,
+    "clarity": 1.0,
+    "terminology": 0.0,
+    "efficiency": 10.0,
+    "keywords": "create cumulative running total formula"
+  },
+  {
+    "question": "120. How do you use the SUBSTITUTE function?",
+    "answer": "SUBSTITUTE replaces occurrences of a specified text within a string. For example,=SUBSTITUTE(A1, \"old\", \"new\")replaces all instances of \"old\" with \"new\" in cell A1.",
+    "level": "",
+    "correctness": 1.0,
+    "clarity": 1.0,
+    "terminology": 0.0,
+    "efficiency": 10.0,
+    "keywords": "substitute replaces occurrences specified text"
+  },
+  {
+    "question": "121. How do you calculate working days between two dates?",
+    "answer": "Use theNETWORKDAYSfunction to calculate the number of working days between two dates. For example,=NETWORKDAYS(A1, B1)excludes weekends and optionally holidays.",
+    "level": "",
+    "correctness": 1.0,
+    "clarity": 1.0,
+    "terminology": 0.0,
+    "efficiency": 10.0,
+    "keywords": "thenetworkdaysfunction calculate number working days"
+  },
+  {
+    "question": "125. How do you use the LAMBDA function in Excel 365?",
+    "answer": "LAMBDA creates custom reusable functions. For example,=LAMBDA(x, x^2)(5)calculates the square of 5 and returns 25.",
+    "level": "",
+    "correctness": 2.0,
+    "clarity": 5.0,
+    "terminology": 5.0,
+    "efficiency": 0.0,
+    "keywords": "lambda function lambda creates custom"
+  },
+  {
+    "question": "130. How do you use the AVERAGEIF function?",
+    "answer": "AVERAGEIF calculates the average of a range based on a condition. For example,=AVERAGEIF(A1:A10, \">50\")returns the average of numbers greater than 50.",
+    "level": "",
+    "correctness": 1.0,
+    "clarity": 10.0,
+    "terminology": 0.0,
+    "efficiency": 10.0,
+    "keywords": "averageif returns average numbers greater"
+  },
+  {
+    "question": "131. How do you highlight top 10 values in Excel?",
+    "answer": "Use conditional formatting with the ruleTop/Bottom Rules > Top 10 Itemsto automatically highlight the highest values in a dataset.",
+    "level": "",
+    "correctness": 10.0,
+    "clarity": 10.0,
+    "terminology": 0.0,
+    "efficiency": 10.0,
+    "keywords": "highlight values conditional formatting with"
+  },
+  {
+    "question": "140. How do you use the OFFSET function for dynamic ranges?",
+    "answer": "OFFSET defines a range based on a reference point. For example,=OFFSET(A1, 0, 0, COUNTA(A:A))adjusts dynamically as new data is added.",
+    "level": "",
+    "correctness": 1.0,
+    "clarity": 0.0,
+    "terminology": 0.0,
+    "efficiency": 0.0,
+    "keywords": "offset defines range based reference"
+  },
+  {
+    "question": "142. How do you analyze time-series data in Excel?",
+    "answer": "Use line charts with trendlines or theFORECAST.LINEARfunction to identify patterns and make predictions.",
+    "level": "",
+    "correctness": 0.0,
+    "clarity": 10.0,
+    "terminology": 0.0,
+    "efficiency": 10.0,
+    "keywords": "correctness clarity terminology efficiency correctness"
+  },
+  {
+    "question": "143. How do you create a formula to compare two lists?",
+    "answer": "Use=IF(COUNTIF(List1, List2)>0, \"Match\", \"No Match\")to compare items in two lists.",
+    "level": "",
+    "correctness": 1.0,
+    "clarity": 2.0,
+    "terminology": 0.0,
+    "efficiency": 0.0,
+    "keywords": "countif list list match match"
+  },
+  {
+    "question": "149. How do you highlight weekends in a date range?",
+    "answer": "Use conditional formatting with a formula like=OR(WEEKDAY(A1)=1, WEEKDAY(A1)=7)to identify weekends.",
+    "level": "",
+    "correctness": 1.0,
+    "clarity": 1.0,
+    "terminology": 1.0,
+    "efficiency": 7.0,
+    "keywords": "highlight weekends date range conditional"
+  },
+  {
+    "question": "154. How do you calculate growth rates in Excel?",
+    "answer": "Use the formula=((Ending Value / Starting Value)^(1/Years)) - 1to calculate Compound Annual Growth Rate (CAGR).",
+    "level": "",
+    "correctness": 1.0,
+    "clarity": 1.0,
+    "terminology": 0.0,
+    "efficiency": 10.0,
+    "keywords": "calculate growth rates formula ending"
+  },
+  {
+    "question": "170. How do you calculate the conversion rate in Excel?",
+    "answer": "Conversion rate is calculated as(Conversions / Total Visitors) * 100. For instance, if there are 500 visitors and 50 conversions, the conversion rate is(50 / 500) * 100 = 10%.",
+    "level": "",
+    "correctness": 10.0,
+    "clarity": 0.0,
+    "terminology": 10.0,
+    "efficiency": 0.0,
+    "keywords": "calculate conversion calculate conversion conversion"
+  },
+  {
+    "question": "173. How do you calculate loan payments in Excel?",
+    "answer": "Use thePMTfunction. For example,=PMT(5%/12, 60, -10000)calculates the monthly payment for a loan of $10,000 with a 5% annual interest rate over 60 months.",
+    "level": "",
+    "correctness": 5.0,
+    "clarity": 10.0,
+    "terminology": 0.0,
+    "efficiency": 5.0,
+    "keywords": "calculate loan payments thepmtfunction example"
+  },
+  {
+    "question": "176. How do you calculate employee turnover rates in Excel?",
+    "answer": "Turnover rate is calculated as(Number of Leavers / Average Number of Employees) * 100. For example, if 10 employees leave out of 200, the rate is(10 / 200) * 100 = 5%.",
+    "level": "",
+    "correctness": 10.0,
+    "clarity": 10.0,
+    "terminology": 5.0,
+    "efficiency": 0.0,
+    "keywords": "calculate employee turnover rates calculate"
+  },
+  {
+    "question": "187. How do you prepare tax computation sheets in Excel?",
+    "answer": "Use logical functions likeIFto calculate applicable tax rates. For example,=IF(Income<=500000, Income*0.05, Income*0.1)applies tiered tax rates.",
+    "level": "",
+    "correctness": 0.05,
+    "clarity": 0.1,
+    "terminology": 0.0,
+    "efficiency": 10.0,
+    "keywords": "prepare computation sheets logical functions"
+  },
+  {
+    "question": "189. How do you calculate dividend payouts in Excel?",
+    "answer": "Use the formulaNet Profit * Dividend Payout Ratio. For example, if net profit is $1,000,000 and the payout ratio is 30%, the dividend is$300,000.",
+    "level": "",
+    "correctness": 1.0,
+    "clarity": 0.0,
+    "terminology": 0.0,
+    "efficiency": 0.0,
+    "keywords": "calculate dividend payouts formulanet profit"
+  },
+  {
+    "question": "191. How do you use Excel shortcuts to speed up workflows?",
+    "answer": "Memorize common shortcuts likeCtrl + C(copy),Ctrl + V(paste), andAlt + H + O + I(auto-fit column width) for faster navigation and data entry.",
+    "level": "",
+    "correctness": 0.0,
+    "clarity": 10.0,
+    "terminology": 0.0,
+    "efficiency": 10.0,
+    "keywords": "correctness clarity terminology efficiency correctness"
+  },
+  {
+    "question": "199. How do you quickly sum data in Excel?",
+    "answer": "Use theAlt + =shortcut to automatically insert aSUMformula for a selected range.",
+    "level": "",
+    "correctness": 0.0,
+    "clarity": 10.0,
+    "terminology": 0.0,
+    "efficiency": 10.0,
+    "keywords": "quickly data quickly data thealt"
+  }
+]
