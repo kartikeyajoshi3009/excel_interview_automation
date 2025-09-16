@@ -1,4 +1,4 @@
-from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch
 import pandas as pd
 import time
@@ -7,15 +7,33 @@ import re
 from dotenv import load_dotenv
 
 # Load the correct T5-small model
-model_name = "google-t5/t5-small"  # Correct identifier
-print("Loading t5-small model...")
+model_name = "bigscience/bloomz-560m"# Correct identifier
+print("Loading bloomz-560m model...")
 
 tokenizer = AutoTokenizer.from_pretrained(model_name)
-model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
+model = AutoModelForCausalLM.from_pretrained(model_name)
 
 def create_prompt(question, answer, level):
-    # T5 works best with simple, clear instructions
-    return f"Evaluate Excel answer. Question: {question} Answer: {answer} Level: {level}. Rate correctness clarity terminology efficiency 0-10:"
+    return f"""
+You are an Excel interview evaluator.
+Evaluate the following answer to the question on four criteria:
+- correctness: Is it factually correct? (0 to 10)
+- clarity: Is it explained clearly and structured? (0 to 10)
+- terminology: Does it use the most correct and relevant terminologies? (0 to 10)
+- efficiency: Does it use the most efficient Excel approach? (0 to 10)
+Return only JSON in this format:
+{{
+  "correctness": 0.0-10.0,
+  "clarity": 0.0-10.0,
+  "terminology": 0.0-10.0,
+  "keywords": "relevant keywords used",
+  "efficiency": 0.0-10.0
+}}
+
+Question: "{question}"
+Answer: "{answer}"
+Level: "{level}"
+"""
 
 def query_local_model(prompt):
     inputs = tokenizer(prompt, return_tensors="pt", truncation=True, max_length=512)
@@ -99,8 +117,8 @@ if __name__ == "__main__":
     
     # Save only successful annotations
     if annotated_records:
-        pd.DataFrame(annotated_records).to_csv("annotated_excel_qa.csv", index=False)
-        with open("annotated_excel_qa.json", "w") as f:
+        pd.DataFrame(annotated_records).to_csv("annotated_excel_qa_bloomz.csv", index=False)
+        with open("annotated_excel_qa_bloomz.json", "w") as f:
             json.dump(annotated_records, f, indent=2)
         
         print(f"\n✅ Annotation complete!")
