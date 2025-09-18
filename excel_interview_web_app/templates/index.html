@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Excel Interview System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎯 AI-Powered Excel Skills Assessment</h1>
+            <div id="session-info" class="session-info hidden">
+                <span id="round-info">Round 1 of 3</span>
+                <span id="question-counter">Question 1 of 3</span>
+            </div>
+        </header>
+
+        <main>
+            <!-- Single Main Screen -->
+            <div id="main-screen" class="screen active">
+                <!-- Dynamic Content Area -->
+                <div id="content-area" class="generated-content">
+                    <h2>Welcome to Your Excel Skills Assessment</h2>
+                    <p>Click "Start Interview" to begin your personalized Excel skills evaluation.</p>
+                </div>
+                
+                <!-- Answer Section (hidden initially) -->
+                <div id="answer-section" class="answer-section hidden">
+                    <label for="user-answer">Your Answer:</label>
+                    <textarea id="user-answer" 
+                              placeholder="Type your answer here..." 
+                              rows="6" 
+                              maxlength="2000"></textarea>
+                    <div class="char-counter">
+                        <span id="char-count">0</span>/2000 characters
+                    </div>
+                </div>
+
+                <!-- Scores Section (hidden initially) -->
+                <div id="scores-section" class="scores-container hidden">
+                    <div class="score-item">
+                        <span class="score-label">Correctness</span>
+                        <span id="score-correctness" class="score-value">-</span>
+                    </div>
+                    <div class="score-item">
+                        <span class="score-label">Clarity</span>
+                        <span id="score-clarity" class="score-value">-</span>
+                    </div>
+                    <div class="score-item">
+                        <span class="score-label">Terminology</span>
+                        <span id="score-terminology" class="score-value">-</span>
+                    </div>
+                    <div class="score-item">
+                        <span class="score-label">Efficiency</span>
+                        <span id="score-efficiency" class="score-value">-</span>
+                    </div>
+                    <div class="score-item overall">
+                        <span class="score-label">Overall</span>
+                        <span id="score-overall" class="score-value">-</span>
+                    </div>
+                </div>
+
+                <!-- Final Scores Section (hidden initially) -->
+                <div id="final-scores-section" class="final-scores-container hidden">
+                    <h3>Your Final Scores</h3>
+                    <div class="final-score-grid">
+                        <div class="final-score-item">
+                            <span class="score-label">Correctness</span>
+                            <span id="final-correctness" class="final-score-value">-</span>
+                        </div>
+                        <div class="final-score-item">
+                            <span class="score-label">Clarity</span>
+                            <span id="final-clarity" class="final-score-value">-</span>
+                        </div>
+                        <div class="final-score-item">
+                            <span class="score-label">Terminology</span>
+                            <span id="final-terminology" class="final-score-value">-</span>
+                        </div>
+                        <div class="final-score-item">
+                            <span class="score-label">Efficiency</span>
+                            <span id="final-efficiency" class="final-score-value">-</span>
+                        </div>
+                        <div class="final-score-item overall">
+                            <span class="score-label">Overall</span>
+                            <span id="final-overall" class="final-score-value">-</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Action Buttons -->
+                <div id="button-area">
+                    <button id="action-btn" class="primary-btn">Start Interview</button>
+                    <button id="restart-btn" class="secondary-btn hidden">Start New Interview</button>
+                </div>
+            </div>
+
+            <!-- Loading Indicator -->
+            <div id="loading" class="loading hidden">
+                <div class="spinner"></div>
+                <p>Processing your response...</p>
+            </div>
+
+            <!-- Error Messages -->
+            <div id="error-message" class="error-message hidden">
+                <p id="error-text"></p>
+                <button id="error-retry-btn" class="secondary-btn">Try Again</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

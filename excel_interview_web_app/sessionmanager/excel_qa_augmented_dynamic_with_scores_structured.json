@@ -1,0 +1,3494 @@
+[
+  {
+    "question": "1. What is Microsoft Excel?",
+    "answer": "Microsoft Excelis a spreadsheet application used for organizing, analyzing, and visualizing data. It provides tools for creating calculations, charts, and data models, making it an essential tool for professionals in various industries.",
+    "type": "Beginner",
+    "correctness": 9.5,
+    "clarity": 9.0,
+    "terminology": 8.0,
+    "efficiency": 9.0
+  },
+  {
+    "question": "2. What is a cell in Excel?",
+    "answer": "A cell is the smallest unit in an Excel worksheet, located at the intersection of a row and column. It\u2019s where you enter data, which can be text, numbers, or formulas. Each cell is identified by its address, such as A1.",
+    "type": "Beginner",
+    "correctness": 10.0,
+    "clarity": 9.0,
+    "terminology": 9.0,
+    "efficiency": 9.0
+  },
+  {
+    "question": "3. How do you save a file in Excel?",
+    "answer": "You can save your file using theexcel shortcutCtrl + Sor by navigating toFile > Save As. This allows you to save your work in various formats, including .xlsx, .xls, or .csv.",
+    "type": "Beginner",
+    "correctness": 7.0,
+    "clarity": 6.0,
+    "terminology": 5.0,
+    "efficiency": 6.0
+  },
+  {
+    "question": "4. What is a workbook in Excel?",
+    "answer": "A workbook is an Excel file that contains one or more worksheets. It allows you to organize related data into multiple sheets for easier analysis and management.",
+    "type": "Beginner",
+    "correctness": 10.0,
+    "clarity": 9.0,
+    "terminology": 9.0,
+    "efficiency": 10.0
+  },
+  {
+    "question": "5. How do you insert a new worksheet?",
+    "answer": "To insert a worksheet, click the+button at the bottom of the screen or use the shortcutShift + F11. This creates a blank worksheet within the same workbook.",
+    "type": "Beginner",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 7.0,
+    "efficiency": 9.0
+  },
+  {
+    "question": "6. What is the Ribbon in Excel?",
+    "answer": "The Ribbon is the toolbar at the top of Excel that contains various tabs and commands. It is divided into sections like Home, Insert, Data, and Formulas, each offering specific tools for your tasks.",
+    "type": "Beginner",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 7.0,
+    "efficiency": 8.0
+  },
+  {
+    "question": "7. How do you use Undo and Redo in Excel?",
+    "answer": "Undo allows you to reverse your last action (Ctrl + Z), while Redo re-applies an undone action (Ctrl + Y). These shortcuts are useful for correcting mistakes or reapplying changes.",
+    "type": "Beginner",
+    "correctness": 9.0,
+    "clarity": 9.0,
+    "terminology": 8.0,
+    "efficiency": 9.0
+  },
+  {
+    "question": "8. What is the shortcut for copying data?",
+    "answer": "UseCtrl + Cto copy andCtrl + Vto paste data. This is a quick way to duplicate data or formulas between cells.",
+    "type": "Beginner",
+    "correctness": 8.0,
+    "clarity": 7.0,
+    "terminology": 7.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "9. What is the formula bar in Excel?",
+    "answer": "The formula bar is a field at the top of the Excel window that displays the contents of the selected cell. It\u2019s especially useful for viewing and editing formulas.",
+    "type": "Beginner",
+    "correctness": 9.0,
+    "clarity": 9.0,
+    "terminology": 8.0,
+    "efficiency": 9.0
+  },
+  {
+    "question": "10. How do you merge cells in Excel?",
+    "answer": "Tomerge cells, select the cells you want to combine and clickMerge & Centerin the Home tab. This is often used for creating headings or labels.",
+    "type": "Beginner",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 7.0,
+    "efficiency": 8.0
+  },
+  {
+    "question": "11. What is the difference between a column and a row?",
+    "answer": "Columns are vertical sections identified by letters (A, B, C), while rows are horizontal sections identified by numbers (1, 2, 3). Together, they form the grid of an Excel worksheet.",
+    "type": "Beginner",
+    "correctness": 10.0,
+    "clarity": 9.0,
+    "terminology": 9.0,
+    "efficiency": 10.0
+  },
+  {
+    "question": "12. How do you wrap text in a cell?",
+    "answer": "Towrap text, select a cell and clickWrap Textin the Home tab. This adjusts the cell content to fit within its boundaries without spilling over into adjacent cells.",
+    "type": "Beginner",
+    "correctness": 8.5,
+    "clarity": 7.0,
+    "terminology": 6.5,
+    "efficiency": 7.0
+  },
+  {
+    "question": "13. What are cell references in Excel?",
+    "answer": "Cell referencesspecify a cell\u2019s location in a formula. Relative references (e.g., A1) adjust when copied, absolute references (e.g., $A$1) remain fixed, and mixed references (e.g., $A1) partially adjust.",
+    "type": "Beginner",
+    "correctness": 9.5,
+    "clarity": 8.0,
+    "terminology": 8.5,
+    "efficiency": 9.0
+  },
+  {
+    "question": "14. How do you delete a worksheet?",
+    "answer": "Right-click the sheet tab and selectDelete.Deleting a sheetpermanently removes its data, so it\u2019s recommended to back up your workbook first.",
+    "type": "Beginner",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 7.5,
+    "efficiency": 8.5
+  },
+  {
+    "question": "15. How do you adjust column width?",
+    "answer": "Drag the boundary of a column header to resize it manually or double-click the boundary to auto-adjust based on the longest cell content.",
+    "type": "Beginner",
+    "correctness": 10.0,
+    "clarity": 9.0,
+    "terminology": 8.0,
+    "efficiency": 9.0
+  },
+  {
+    "question": "16. What is a formula in Excel?",
+    "answer": "A formula is an expression that calculates the value of a cell. It begins with=and can include operators, cell references, and functions (e.g.,=A1+B1).",
+    "type": "Intermediate",
+    "correctness": 9.0,
+    "clarity": 9.0,
+    "terminology": 8.0,
+    "efficiency": 9.0
+  },
+  {
+    "question": "17. What is conditional formatting in Excel?",
+    "answer": "Conditional formattinghighlights cells based on rules you set. For example, you can apply red shading to cells with values less than 50 usingHome > Conditional Formatting.",
+    "type": "Intermediate",
+    "correctness": 8.0,
+    "clarity": 6.0,
+    "terminology": 6.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "18. What is a Pivot Table?",
+    "answer": "APivot Tablesummarizes and analyzes large datasets by grouping, filtering, and aggregating data dynamically. It\u2019s a powerful tool for creating reports and visual summaries.",
+    "type": "Intermediate",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 7.0,
+    "efficiency": 9.0
+  },
+  {
+    "question": "19. How do you apply filters in Excel?",
+    "answer": "To filter data, select your dataset and clickData > Filter. Dropdown arrows appear, allowing you to filter rows based on specific criteria.",
+    "type": "Intermediate",
+    "correctness": 8.0,
+    "clarity": 8.0,
+    "terminology": 7.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "20. What is the VLOOKUP function?",
+    "answer": "VLOOKUPsearches for a value in the first column of a table and returns a value from a specified column in the same row. For example,=VLOOKUP(\"Apple\", A1:C10, 2, FALSE)looks for \"Apple\" in column A and returns the corresponding value from column B.",
+    "type": "Intermediate",
+    "correctness": 9.0,
+    "clarity": 7.5,
+    "terminology": 7.0,
+    "efficiency": 8.0
+  },
+  {
+    "question": "21. What is the difference between COUNT and COUNTA?",
+    "answer": "COUNT counts numeric values, while COUNTA counts all non-empty cells, including text. For example,=COUNT(A1:A10)returns the count of numbers, and=COUNTA(A1:A10)includes text and numbers.",
+    "type": "Intermediate",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 8.5,
+    "efficiency": 8.5
+  },
+  {
+    "question": "22. How do you create a chart in Excel?",
+    "answer": "Select your data, go toInsert > Chart, and choose a chart type.Chartsvisually represent data trends and patterns, making analysis more accessible.",
+    "type": "Intermediate",
+    "correctness": 7.0,
+    "clarity": 6.5,
+    "terminology": 6.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "23. What is the CONCATENATE function?",
+    "answer": "CONCATENATEcombines text from multiple cells into one. For example,=CONCATENATE(\"Hello\", \" World\")results in \"Hello World.\"",
+    "type": "Intermediate",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 7.0,
+    "efficiency": 9.0
+  },
+  {
+    "question": "24. How do you remove duplicates in Excel?",
+    "answer": "Select your data, then go toData > Remove Duplicates. This helps clean datasets by eliminating redundant entries based on selected columns.",
+    "type": "Intermediate",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 8.0,
+    "efficiency": 9.0
+  },
+  {
+    "question": "25. What is data validation?",
+    "answer": "Data validationrestricts data entry to specified types or ranges. For instance, you can limit a cell to accept only whole numbers between 1 and 100.",
+    "type": "Intermediate",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 7.0,
+    "efficiency": 9.0
+  },
+  {
+    "question": "26. What is Power Query?",
+    "answer": "Power Query automates data import, transformation, and cleaning tasks. It\u2019s especially useful for consolidating data from multiple sources into one table.",
+    "type": "Advanced",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 7.5,
+    "efficiency": 8.0
+  },
+  {
+    "question": "27. What is the XLOOKUP function?",
+    "answer": "XLOOKUPis an improved lookup function that can search in any direction and return a value or array. For example,=XLOOKUP(\"Apple\", A1:A10, B1:B10)searches for \"Apple\" in column A and returns the corresponding value from column B.",
+    "type": "Advanced",
+    "correctness": 8.5,
+    "clarity": 8.0,
+    "terminology": 7.0,
+    "efficiency": 8.5
+  },
+  {
+    "question": "28. What is the purpose of macros in Excel?",
+    "answer": "Macrosautomate repetitive tasks by recording a series of steps. They are written in VBA (Visual Basic for Applications) and can save hours of manual work.",
+    "type": "Advanced",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 9.0,
+    "efficiency": 9.0
+  },
+  {
+    "question": "29. What is the IF function?",
+    "answer": "TheIF functionperforms logical tests and returns different values based on the result. For instance,=IF(A1>10, \"Pass\", \"Fail\")returns \"Pass\" if A1 is greater than 10 and \"Fail\" otherwise.",
+    "type": "Advanced",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 7.5,
+    "efficiency": 8.0
+  },
+  {
+    "question": "30. How do INDEX and MATCH work together?",
+    "answer": "INDEXreturns the value of a cell at a specified row and column, while MATCH finds the position of a value in a range. Combined, they perform advanced lookups. For example,=INDEX(A1:C10, MATCH(\"Apple\", A1:A10, 0), 2)finds \"Apple\" in column A and returns the corresponding value from column B.",
+    "type": "Advanced",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 8.5,
+    "efficiency": 8.5
+  },
+  {
+    "question": "31. What are array formulas?",
+    "answer": "Array formulas perform multiple calculations on a range of cells and return a single result or an array of results. For example,=SUM(A1:A10*B1:B10)calculates the sum of products for corresponding rows in two ranges.",
+    "type": "Advanced",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 8.5,
+    "efficiency": 8.5
+  },
+  {
+    "question": "32. What is a slicer in Excel?",
+    "answer": "A slicer is a visual filtering tool used withPivot Tablesor Pivot Charts. It allows users to filter data dynamically by clicking on buttons corresponding to filter criteria.",
+    "type": "Advanced",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 8.0,
+    "efficiency": 8.0
+  },
+  {
+    "question": "33. What is the TEXT function?",
+    "answer": "The TEXT function converts a number to text in a specified format. For example,=TEXT(A1, \"MM/DD/YYYY\")converts a date into a readable format like 01/01/2025.",
+    "type": "Advanced",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 8.0,
+    "efficiency": 9.0
+  },
+  {
+    "question": "34. What is the ROUND function?",
+    "answer": "The ROUND function rounds a number to a specified number of digits. For instance,=ROUND(12.345, 2)returns 12.35, rounding to two decimal places.",
+    "type": "Advanced",
+    "correctness": 9.0,
+    "clarity": 8.5,
+    "terminology": 8.0,
+    "efficiency": 9.0
+  },
+  {
+    "question": "35. What is the TRIM function?",
+    "answer": "The TRIM function removes all extra spaces from text except for single spaces between words. For example,=TRIM(\" Excel Tips \")returns \"Excel Tips.\"",
+    "type": "Advanced",
+    "correctness": 10.0,
+    "clarity": 9.0,
+    "terminology": 8.5,
+    "efficiency": 9.0
+  },
+  {
+    "question": "36. How do you use Goal Seek in Excel?",
+    "answer": "Goal Seek finds the input value needed to achieve a desired result in a formula. Navigate toData > What-If Analysis > Goal Seek, set your target value, and let Excel calculate the required input.",
+    "type": "Advanced",
+    "correctness": 9.0,
+    "clarity": 8.5,
+    "terminology": 8.0,
+    "efficiency": 9.0
+  },
+  {
+    "question": "37. What is Solver in Excel?",
+    "answer": "Solver is an advanced optimization tool used to find the best solution for a problem with multiple constraints. It\u2019s often used for resource allocation, portfolio optimization, and scheduling.",
+    "type": "Advanced",
+    "correctness": 9.5,
+    "clarity": 9.0,
+    "terminology": 8.5,
+    "efficiency": 9.0
+  },
+  {
+    "question": "38. What is the PMT function?",
+    "answer": "The PMT function calculates loan payments based on constant interest rates and payment schedules. For example,=PMT(5%/12, 60, -10000)calculates the monthly payment for a loan.",
+    "type": "Advanced",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 8.0,
+    "efficiency": 8.5
+  },
+  {
+    "question": "39. How do you create a dependent drop-down list?",
+    "answer": "Dependent drop-down lists change their options based on the selection in another list. Use Data Validation combined with theINDIRECTfunction to reference the appropriate range dynamically.",
+    "type": "Advanced",
+    "correctness": 8.0,
+    "clarity": 7.0,
+    "terminology": 8.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "40. What is a dynamic chart in Excel?",
+    "answer": "Adynamic chartupdates automatically when its source data changes. You can create one using named ranges or Excel tables, ensuring the chart adapts to data additions or removals.",
+    "type": "Advanced",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 8.0,
+    "efficiency": 8.0
+  },
+  {
+    "question": "41. How do you use Power Pivot in Excel?",
+    "answer": "Power Pivotenables advanced data modeling and analysis. It allows users to create relationships between tables, build complex calculations using DAX formulas, and handle large datasets efficiently.",
+    "type": "Advanced",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 8.0,
+    "efficiency": 9.0
+  },
+  {
+    "question": "42. What is the NETWORKDAYS function?",
+    "answer": "The NETWORKDAYS function calculates the number of working days between two dates, excluding weekends and holidays. For example,=NETWORKDAYS(A1, A2, Holidays)returns the count of workdays between A1 and A2.",
+    "type": "Advanced",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 7.0,
+    "efficiency": 9.0
+  },
+  {
+    "question": "43. How do you split text into columns?",
+    "answer": "UseData > Text to Columnsto split text based on delimiters (e.g., commas, spaces) or fixed widths. This is useful for separating names, addresses, or other concatenated data.",
+    "type": "Advanced",
+    "correctness": 9.0,
+    "clarity": 7.0,
+    "terminology": 8.0,
+    "efficiency": 8.0
+  },
+  {
+    "question": "44. How do you compare two datasets in Excel?",
+    "answer": "You can use conditional formatting to highlight matching or non-matching values between datasets. Alternatively, use formulas like=IF(A1=B1, \"Match\", \"No Match\").",
+    "type": "Advanced",
+    "correctness": 8.5,
+    "clarity": 8.0,
+    "terminology": 7.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "45. How do you calculate CAGR (Compound Annual Growth Rate) in Excel?",
+    "answer": "CAGR is calculated using the formula=(Ending Value / Starting Value)^(1/Number of Years) - 1. For example,=(20000 / 10000)^(1/5) - 1calculates a 14.87% CAGR over five years.",
+    "type": "Advanced",
+    "correctness": 10.0,
+    "clarity": 9.0,
+    "terminology": 9.0,
+    "efficiency": 9.0
+  },
+  {
+    "question": "46. What is the UNIQUE function?",
+    "answer": "The UNIQUE function, available in Excel 365, extracts unique values from a range. For example,=UNIQUE(A1:A10)generates a list of unique items from the specified range.",
+    "type": "Advanced",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 7.0,
+    "efficiency": 8.0
+  },
+  {
+    "question": "47. How do you calculate a weighted average in Excel?",
+    "answer": "Use theSUMPRODUCTfunction to calculateweighted averages. For example,=SUMPRODUCT(A1:A5, B1:B5)/SUM(B1:B5)computes the average when weights are in column B.",
+    "type": "Advanced",
+    "correctness": 9.0,
+    "clarity": 7.0,
+    "terminology": 7.0,
+    "efficiency": 9.0
+  },
+  {
+    "question": "48. How do you normalize data in Excel?",
+    "answer": "To normalize data, subtract the mean and divide by the standard deviation:=(Value - MEAN) / STDEV. This scales the data for comparison across datasets.",
+    "type": "Advanced",
+    "correctness": 7.0,
+    "clarity": 7.0,
+    "terminology": 7.0,
+    "efficiency": 6.0
+  },
+  {
+    "question": "49. How do you highlight duplicates in Excel?",
+    "answer": "UseConditional Formatting > Highlight Cells Rules > Duplicate Valuesto identify duplicate entries in a dataset.",
+    "type": "Advanced",
+    "correctness": 8.5,
+    "clarity": 7.0,
+    "terminology": 7.0,
+    "efficiency": 8.0
+  },
+  {
+    "question": "50. How do you use the DATEDIF function?",
+    "answer": "DATEDIF calculates the difference between two dates in years, months, or days. For example,=DATEDIF(A1, B1, \"Y\")returns the number of years between two dates.",
+    "type": "Advanced",
+    "correctness": 8.0,
+    "clarity": 7.0,
+    "terminology": 6.5,
+    "efficiency": 8.0
+  },
+  {
+    "question": "51. What is the FILTER function?",
+    "answer": "The FILTER function dynamically returns rows or columns based on criteria. For example,=FILTER(A1:A10, B1:B10=\"Yes\")filters rows where column B equals \"Yes.\"",
+    "type": "Data Analyst-Specific",
+    "correctness": 9.0,
+    "clarity": 8.5,
+    "terminology": 8.0,
+    "efficiency": 9.0
+  },
+  {
+    "question": "52. What is the SORT function?",
+    "answer": "The SORT function sorts data dynamically based on specified criteria. For example,=SORT(A1:A10, 1, -1)sorts the range A1:A10 in descending order.",
+    "type": "Data Analyst-Specific",
+    "correctness": 9.0,
+    "clarity": 8.5,
+    "terminology": 8.0,
+    "efficiency": 9.0
+  },
+  {
+    "question": "53. How do you use Excel for regression analysis?",
+    "answer": "Excel\u2019sData Analysis ToolPakoffers regression tools to calculate coefficients, R\u00b2, and statistical significance for predictive modeling.",
+    "type": "Data Analyst-Specific",
+    "correctness": 8.0,
+    "clarity": 6.0,
+    "terminology": 7.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "54. What is XLOOKUP?",
+    "answer": "XLOOKUP replaces VLOOKUP and HLOOKUP, allowing flexible searches in any direction. For example,=XLOOKUP(\"Apple\", A1:A10, B1:B10)returns the value associated with \"Apple\" in column B.",
+    "type": "Data Analyst-Specific",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 8.0,
+    "efficiency": 8.0
+  },
+  {
+    "question": "55. How do you automate Excel reports?",
+    "answer": "You can automate reports using macros (VBA) or Power Query for data refreshes. Use dynamic ranges and Pivot Tables to handle recurring updates.",
+    "type": "Data Analyst-Specific",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 8.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "57. How do you use Excel with Power BI?",
+    "answer": "Excel integrates seamlessly withPower BIfor advanced data visualization. Publish Excel files directly to Power BI or connect to datasets using Analyze in Excel.",
+    "type": "Data Analyst-Specific",
+    "correctness": 7.5,
+    "clarity": 7.0,
+    "terminology": 6.5,
+    "efficiency": 6.0
+  },
+  {
+    "question": "58. How do you use Excel 365 Copilot for automation?",
+    "answer": "Excel 365 Copilot automates tasks, generates insights, and creates formulas based on natural language prompts. For instance, asking \u201cSummarize quarterly sales data\u201d generates an immediate summary.",
+    "type": "Data Analyst-Specific",
+    "correctness": 8.0,
+    "clarity": 8.5,
+    "terminology": 7.0,
+    "efficiency": 7.5
+  },
+  {
+    "question": "59. What is the LET function?",
+    "answer": "The LET function allows you to assign names to intermediate calculations within a formula, improving readability and performance. For example,=LET(x, A1+A2, x^2)calculates the square of the sum of A1 and A2.",
+    "type": "Data Analyst-Specific",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 7.5,
+    "efficiency": 8.0
+  },
+  {
+    "question": "60. What is the TEXTAFTER function?",
+    "answer": "TEXTAFTER extracts text that appears after a specified delimiter. For example,=TEXTAFTER(\"Excel 365\", \" \")returns \"365.\"",
+    "type": "Data Analyst-Specific",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 7.0,
+    "efficiency": 8.0
+  },
+  {
+    "question": "61. What is the TEXTBEFORE function?",
+    "answer": "TEXTBEFORE extracts text that appears before a specific delimiter in a string. For example,=TEXTBEFORE(\"Excel 365\", \" \")returns \"Excel.\"",
+    "type": "Data Analyst-Specific",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 8.0,
+    "efficiency": 9.0
+  },
+  {
+    "question": "62. How do you use the WRAPCOLS function?",
+    "answer": "The WRAPCOLS function organizes a single row or column of data into multiple columns with a specified number of entries per column. For example,=WRAPCOLS(A1:A10, 3)groups the range A1:A10 into columns of three values each.",
+    "type": "Data Analyst-Specific",
+    "correctness": 8.5,
+    "clarity": 8.0,
+    "terminology": 7.5,
+    "efficiency": 8.0
+  },
+  {
+    "question": "63. What is the WRAPROWS function?",
+    "answer": "The WRAPROWS function reshapes a single column or row of data into multiple rows with a fixed number of entries per row. For example,=WRAPROWS(A1:A12, 4)organizes the range A1:A12 into three rows of four values.",
+    "type": "Data Analyst-Specific",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 8.0,
+    "efficiency": 8.0
+  },
+  {
+    "question": "64. How do you create dependent drop-down lists in Excel?",
+    "answer": "Use the INDIRECT function to reference named ranges dynamically. For example, a drop-down list for states changes based on the country selected in another drop-down list.",
+    "type": "Data Analyst-Specific",
+    "correctness": 8.0,
+    "clarity": 7.0,
+    "terminology": 7.5,
+    "efficiency": 7.0
+  },
+  {
+    "question": "65. How do you calculate ROI (Return on Investment) in Excel?",
+    "answer": "ROI is calculated using the formula(Revenue - Cost) / Cost. For example,=(10000 - 5000) / 5000results in an ROI of 100%.",
+    "type": "Data Analyst-Specific",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 7.0,
+    "efficiency": 8.0
+  },
+  {
+    "question": "66. How do you split names into first and last names?",
+    "answer": "UseText to Columnsor formulas like=LEFT(A1, FIND(\" \", A1)-1)for the first name and=RIGHT(A1, LEN(A1)-FIND(\" \", A1))for the last name.",
+    "type": "Data Analyst-Specific",
+    "correctness": 8.0,
+    "clarity": 6.0,
+    "terminology": 7.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "67. How do you calculate the rank of a value in Excel?",
+    "answer": "Use the RANK function, such as=RANK(A1, A1:A10)to find the position of a value within a range.",
+    "type": "Data Analyst-Specific",
+    "correctness": 7.0,
+    "clarity": 6.0,
+    "terminology": 6.5,
+    "efficiency": 6.0
+  },
+  {
+    "question": "68. What is the MAKEARRAY function in Excel?",
+    "answer": "MAKEARRAY creates an array based on a custom formula. For example,=MAKEARRAY(3, 3, LAMBDA(row, col, row*col))generates a 3x3 array with the product of row and column numbers.",
+    "type": "Data Analyst-Specific",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 8.5,
+    "efficiency": 9.5
+  },
+  {
+    "question": "69. How do you handle circular references in Excel?",
+    "answer": "Enable iterative calculations inFile > Options > Formulas. Alternatively, redesign formulas to avoid self-references.",
+    "type": "Data Analyst-Specific",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 8.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "70. How do you calculate moving averages?",
+    "answer": "UseAVERAGEwith dynamic ranges or the Analysis ToolPak for a built-in Moving Average feature. For example,=AVERAGE(A1:A3)calculates a 3-period moving average.",
+    "type": "Data Analyst-Specific",
+    "correctness": 8.0,
+    "clarity": 7.0,
+    "terminology": 7.0,
+    "efficiency": 6.0
+  },
+  {
+    "question": "71. How does Copilot simplify data cleaning?",
+    "answer": "Copilot can suggest and apply data cleaning methods like removing duplicates, filling missing values, or reformatting text. For example, you can ask, \u201cStandardize product names in this dataset.\u201d",
+    "type": "Excel 365 Copilot-Specific",
+    "correctness": 8.0,
+    "clarity": 8.0,
+    "terminology": 7.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "72. How does Copilot enhance data analysis?",
+    "answer": "Copilot provides insights and visualizations based on natural language queries like \u201cShow the sales trend for the last 6 months\u201d or \u201cHighlight regions with the highest revenue.\u201d",
+    "type": "Excel 365 Copilot-Specific",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 8.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "73. How does Copilot assist with complex formulas?",
+    "answer": "Copilot generates complex formulas based on descriptions. For example, you can type \u201cCalculate profit margin\u201d and get the formula=(Revenue - Cost) / Revenue.",
+    "type": "Excel 365 Copilot-Specific",
+    "correctness": 8.5,
+    "clarity": 8.0,
+    "terminology": 7.0,
+    "efficiency": 7.5
+  },
+  {
+    "question": "75. How does Copilot integrate with Power BI?",
+    "answer": "Copilot works with Power BI to connect Excel data, generate interactive dashboards, and export insights into Excel for further analysis.",
+    "type": "Excel 365 Copilot-Specific",
+    "correctness": 4.0,
+    "clarity": 5.0,
+    "terminology": 4.0,
+    "efficiency": 4.0
+  },
+  {
+    "question": "76. How do you connect Excel to Power BI?",
+    "answer": "Save your Excel file to OneDrive or SharePoint, then import it into Power BI Desktop or Power BI Service usingGet Data.",
+    "type": "Power BI Integration with Excel",
+    "correctness": 7.0,
+    "clarity": 6.0,
+    "terminology": 5.0,
+    "efficiency": 6.0
+  },
+  {
+    "question": "77. How do you use Analyze in Excel with Power BI?",
+    "answer": "Analyze in Excel allows you to connect directly to Power BI datasets and analyze data using Excel Pivot Tables. Download the connection file from Power BI Service and open it in Excel.",
+    "type": "Power BI Integration with Excel",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 8.0,
+    "efficiency": 8.0
+  },
+  {
+    "question": "78. How do you export Power BI visuals to Excel?",
+    "answer": "Click on a visualization in Power BI, then selectExport Datato download the data as an Excel or CSV file for further analysis.",
+    "type": "Power BI Integration with Excel",
+    "correctness": 8.0,
+    "clarity": 7.0,
+    "terminology": 7.0,
+    "efficiency": 6.0
+  },
+  {
+    "question": "79. How do you refresh Excel data connected to Power BI?",
+    "answer": "UseData > Refresh Allto sync Excel files with live Power BI datasets. Ensure the dataset is stored in the cloud for automatic updates.",
+    "type": "Power BI Integration with Excel",
+    "correctness": 4.0,
+    "clarity": 5.0,
+    "terminology": 4.0,
+    "efficiency": 4.0
+  },
+  {
+    "question": "80. How do you combine multiple Excel files into Power BI?",
+    "answer": "Use Power BI Desktop\u2019sGet Data > Folderoption to load all Excel files in a folder. Power Query consolidates data from these files based on a common structure.",
+    "type": "Power BI Integration with Excel",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 7.0,
+    "efficiency": 8.0
+  },
+  {
+    "question": "81. How do you use Power Query in Excel and Power BI?",
+    "answer": "Power Query is used to clean and transform data before analysis. In Excel, it\u2019s found underData > Get & Transform; in Power BI, it\u2019s part of the data preparation process.",
+    "type": "Power BI Integration with Excel",
+    "correctness": 8.0,
+    "clarity": 7.0,
+    "terminology": 7.0,
+    "efficiency": 6.0
+  },
+  {
+    "question": "82. How do you schedule data refreshes for Power BI-integrated Excel files?",
+    "answer": "Ensure Excel files are stored in OneDrive or SharePoint. In Power BI, go toDataset > Schedule Refreshto set up periodic updates.",
+    "type": "Power BI Integration with Excel",
+    "correctness": 8.0,
+    "clarity": 7.0,
+    "terminology": 7.0,
+    "efficiency": 6.0
+  },
+  {
+    "question": "83. How do you use Excel to create a project timeline?",
+    "answer": "Create a Gantt chart by organizing tasks, start dates, and end dates. Use conditional formatting to visualize progress and highlight overdue tasks.",
+    "type": "Scenario-Based Excel",
+    "correctness": 7.0,
+    "clarity": 7.5,
+    "terminology": 7.0,
+    "efficiency": 6.0
+  },
+  {
+    "question": "84. How do you track expenses by category?",
+    "answer": "Use a Pivot Table to summarize expenses by category. Add slicers for interactivity and visualize spending trends using bar or pie charts.",
+    "type": "Scenario-Based Excel",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 8.0,
+    "efficiency": 9.0
+  },
+  {
+    "question": "85. How do you calculate employee turnover rates in Excel?",
+    "answer": "Divide the number of employees who left during a period by the average number of employees. Formula:(Leavers / Average Employees) * 100.",
+    "type": "Scenario-Based Excel",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 7.0,
+    "efficiency": 9.0
+  },
+  {
+    "question": "86. How do you clean messy datasets in Excel?",
+    "answer": "UseTRIMto remove extra spaces,CLEANfor non-printable characters, andText to Columnsfor splitting concatenated data.",
+    "type": "Scenario-Based Excel",
+    "correctness": 7.0,
+    "clarity": 6.0,
+    "terminology": 7.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "87. How do you reconcile financial data?",
+    "answer": "UseVLOOKUP,XLOOKUP, orINDEX-MATCHto compare two datasets for discrepancies. Highlight mismatches using conditional formatting.",
+    "type": "Scenario-Based Excel",
+    "correctness": 7.0,
+    "clarity": 6.0,
+    "terminology": 7.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "88. How do you perform scenario analysis in Excel?",
+    "answer": "UseWhat-If Analysis > Scenario Managerto evaluate multiple scenarios by varying input values, such as sales growth or cost reductions.",
+    "type": "Scenario-Based Excel",
+    "correctness": 8.0,
+    "clarity": 7.0,
+    "terminology": 6.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "89. How do you calculate the weighted average in Excel?",
+    "answer": "Use theSUMPRODUCTfunction. For example,=SUMPRODUCT(Scores, Weights) / SUM(Weights)calculates a weighted test score.",
+    "type": "Scenario-Based Excel",
+    "correctness": 10.0,
+    "clarity": 9.0,
+    "terminology": 9.0,
+    "efficiency": 10.0
+  },
+  {
+    "question": "90. How do you identify outliers in a dataset?",
+    "answer": "Use statistical formulas like=QUARTILEand calculate the interquartile range (IQR). Highlight values outside the range with conditional formatting.",
+    "type": "Scenario-Based Excel",
+    "correctness": 9.0,
+    "clarity": 7.0,
+    "terminology": 7.0,
+    "efficiency": 8.0
+  },
+  {
+    "question": "91. What is the purpose of dynamic named ranges in Excel?",
+    "answer": "Dynamic named ranges automatically adjust their size when new data is added. Use theOFFSETfunction to define them, such as=OFFSET(A1, 0, 0, COUNTA(A:A)).",
+    "type": "Important Excel Interview",
+    "correctness": 9.0,
+    "clarity": 7.0,
+    "terminology": 8.0,
+    "efficiency": 8.0
+  },
+  {
+    "question": "93. How do you visualize task dependencies in Excel?",
+    "answer": "Use a Gantt chart to show relationships between tasks. Add arrows to indicate dependencies and use conditional formatting for critical paths.",
+    "type": "Important Excel Interview",
+    "correctness": 8.0,
+    "clarity": 7.0,
+    "terminology": 6.5,
+    "efficiency": 7.5
+  },
+  {
+    "question": "94. What is the RANK function, and how is it used?",
+    "answer": "The RANK function returns the rank of a number within a dataset. For example,=RANK(A1, A1:A10)ranks the value in A1 among the range A1:A10.",
+    "type": "Important Excel Interview",
+    "correctness": 7.0,
+    "clarity": 7.0,
+    "terminology": 8.0,
+    "efficiency": 8.0
+  },
+  {
+    "question": "95. How do you compare year-over-year (YoY) performance in Excel?",
+    "answer": "Calculate the percentage change using=((Current Year - Previous Year) / Previous Year) * 100. Use a Pivot Table to summarize YoY changes by category.",
+    "type": "Important Excel Interview",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 8.5,
+    "efficiency": 8.0
+  },
+  {
+    "question": "96. How do you normalize data in Excel?",
+    "answer": "Subtract the mean and divide by the standard deviation using=(Value - MEAN) / STDEV. This standardizes data for comparison across variables.",
+    "type": "Important Excel Interview",
+    "correctness": 7.0,
+    "clarity": 7.5,
+    "terminology": 6.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "97. How do you protect sensitive data in Excel?",
+    "answer": "Encrypt the workbook usingFile > Info > Protect Workbook. Lock specific cells withFormat Cells > Protectionand enable sheet protection.",
+    "type": "Important Excel Interview",
+    "correctness": 8.5,
+    "clarity": 7.0,
+    "terminology": 7.5,
+    "efficiency": 8.0
+  },
+  {
+    "question": "98. How do you create a performance dashboard in Excel?",
+    "answer": "Combine Pivot Tables, slicers, and interactive charts to track KPIs. Use Excel tables to enable automatic updates as new data is added.",
+    "type": "Important Excel Interview",
+    "correctness": 8.0,
+    "clarity": 7.0,
+    "terminology": 7.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "99. What is the difference between absolute and relative cell references?",
+    "answer": "Absolute references ($A$1) remain constant when copied, while relative references (A1) adjust relative to their new location.",
+    "type": "Important Excel Interview",
+    "correctness": 10.0,
+    "clarity": 9.0,
+    "terminology": 9.0,
+    "efficiency": 10.0
+  },
+  {
+    "question": "100. How do you use Excel to calculate depreciation?",
+    "answer": "UseSLNfor straight-line depreciation (=SLN(Cost, Salvage, Life)) orDBfor declining balance depreciation.",
+    "type": "Important Excel Interview",
+    "correctness": 8.0,
+    "clarity": 6.5,
+    "terminology": 7.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "101. How do you use Solver for optimization problems?",
+    "answer": "Solver finds the optimal solution by adjusting input values within defined constraints. Use it for resource allocation or cost minimization problems.",
+    "type": "Important Excel Interview",
+    "correctness": 8.0,
+    "clarity": 7.0,
+    "terminology": 6.5,
+    "efficiency": 7.0
+  },
+  {
+    "question": "102. How do you calculate the correlation between two datasets?",
+    "answer": "Use theCORRELfunction to calculate the correlation coefficient. For example,=CORREL(A1:A10, B1:B10)measures the strength of the relationship between two variables.",
+    "type": "Important Excel Interview",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 8.5,
+    "efficiency": 9.0
+  },
+  {
+    "question": "103. How do you export Excel charts into PowerPoint?",
+    "answer": "Copy the chart in Excel (Ctrl + C) and paste it into PowerPoint (Ctrl + V). Use thePaste Specialoption to link the chart for real-time updates.",
+    "type": "Important Excel Interview",
+    "correctness": 8.0,
+    "clarity": 8.0,
+    "terminology": 7.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "104. How do you create a Histogram in Excel?",
+    "answer": "Use theData Analysis ToolPakorInsert > Chart > Histogramto group data into intervals and display the frequency distribution.",
+    "type": "Important Excel Interview",
+    "correctness": 7.0,
+    "clarity": 6.0,
+    "terminology": 6.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "105. How does Excel 365 Copilot help with insights?",
+    "answer": "Excel Copilot uses AI to generate summaries, identify trends, and create visualizations based on natural language queries. For example, ask \u201cWhat are the sales trends for the last 6 months?\u201d for instant analysis.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 9.0,
+    "clarity": 9.0,
+    "terminology": 8.0,
+    "efficiency": 9.0
+  },
+  {
+    "question": "106. How do you automate repetitive tasks with Copilot?",
+    "answer": "Use Copilot to perform common tasks like cleaning data, formatting tables, or creating formulas. For example, prompt it to \u201cRemove duplicates and highlight outliers in this dataset.\u201d",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 8.0,
+    "clarity": 8.0,
+    "terminology": 7.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "107. How do you use the IMAGE function in Excel 365?",
+    "answer": "The IMAGE function embeds images directly into cells using a URL. For example,=IMAGE(\"https://example.com//logo.jpg\")displays the image in the cell.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 7.0,
+    "clarity": 7.0,
+    "terminology": 6.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "108. How do you analyze multiple datasets using Copilot?",
+    "answer": "Copilot can consolidate data from multiple sheets or files, identify patterns, and suggest charts or Pivot Tables for better visualization.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 7.5,
+    "clarity": 7.0,
+    "terminology": 6.5,
+    "efficiency": 6.0
+  },
+  {
+    "question": "109. How does Excel 365 Copilot simplify report generation?",
+    "answer": "With Copilot, you can generate automated reports by providing prompts like \u201cCreate a quarterly performance report\u201d or \u201cSummarize sales by region.\u201d",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 8.0,
+    "clarity": 8.0,
+    "terminology": 7.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "110. How do you use the UNIQUE function in Excel 365?",
+    "answer": "The UNIQUE function extracts unique values from a dataset dynamically. For example,=UNIQUE(A1:A10)generates a list of distinct items from the range A1:A10.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 7.0,
+    "efficiency": 8.0
+  },
+  {
+    "question": "111. How do you use the SEQUENCE function in Excel 365?",
+    "answer": "The SEQUENCE function generates a numeric array in rows and columns. For example,=SEQUENCE(5, 2)creates a 5x2 array with sequential numbers starting from 1.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 8.0,
+    "efficiency": 8.0
+  },
+  {
+    "question": "112. How do you use the SORTBY function?",
+    "answer": "SORTBY sorts a dataset based on one or more criteria. For example,=SORTBY(A1:A10, B1:B10, 1)sorts A1:A10 based on the ascending order of B1:B10.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 7.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "113. How do you use the RANDARRAY function?",
+    "answer": "RANDARRAY generates an array of random numbers within a specified range. For example,=RANDARRAY(5, 1, 1, 100, TRUE)creates 5 random integers between 1 and 100.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 8.0,
+    "efficiency": 8.0
+  },
+  {
+    "question": "114. How do you use the TEXTJOIN function?",
+    "answer": "TEXTJOIN combines text from multiple ranges or arrays with a specified delimiter. For example,=TEXTJOIN(\", \", TRUE, A1:A5)joins text in A1 through A5, separated by commas.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 8.0,
+    "efficiency": 8.0
+  },
+  {
+    "question": "115. How do you use the TOROW function?",
+    "answer": "The TOROW function converts a range of cells into a single row. For example,=TOROW(A1:C3)consolidates the range A1:C3 into a horizontal array.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 9.0,
+    "clarity": 7.0,
+    "terminology": 7.0,
+    "efficiency": 8.0
+  },
+  {
+    "question": "116. How do you use the TOCOL function?",
+    "answer": "The TOCOL function converts a range of cells into a single column. For example,=TOCOL(A1:C3)consolidates the range A1:C3 into a vertical array.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 7.0,
+    "efficiency": 8.0
+  },
+  {
+    "question": "117. How do you create interactive slicers for Pivot Tables?",
+    "answer": "Interactive slicers are created by selecting the Pivot Table and navigating toInsert > Slicer. Slicers allow filtering data with clickable buttons.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 8.0,
+    "clarity": 8.0,
+    "terminology": 7.0,
+    "efficiency": 8.0
+  },
+  {
+    "question": "118. How do you create a Gantt chart in Excel?",
+    "answer": "Create a Gantt chart by using bar charts to represent task durations. Adjust bar start and end dates using conditional formatting or chart customization.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 6.0,
+    "clarity": 5.0,
+    "terminology": 5.0,
+    "efficiency": 4.0
+  },
+  {
+    "question": "119. How do you create a cumulative sum in Excel?",
+    "answer": "Use a running total formula like=SUM($A$1:A1)and drag it down to calculate the cumulative total for each row.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 8.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "120. How do you use the SUBSTITUTE function?",
+    "answer": "SUBSTITUTE replaces occurrences of a specified text within a string. For example,=SUBSTITUTE(A1, \"old\", \"new\")replaces all instances of \"old\" with \"new\" in cell A1.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 8.0,
+    "clarity": 7.0,
+    "terminology": 7.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "121. How do you calculate working days between two dates?",
+    "answer": "Use theNETWORKDAYSfunction to calculate the number of working days between two dates. For example,=NETWORKDAYS(A1, B1)excludes weekends and optionally holidays.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 9.5,
+    "clarity": 8.5,
+    "terminology": 9.0,
+    "efficiency": 9.0
+  },
+  {
+    "question": "122. How do you calculate a percentage difference between two values?",
+    "answer": "Use the formula=((New Value - Old Value) / Old Value) * 100to calculate the percentage change.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 8.0,
+    "efficiency": 9.0
+  },
+  {
+    "question": "123. How do you identify duplicates in Excel?",
+    "answer": "Use conditional formatting with the ruleHighlight Cells Rules > Duplicate Valuesto easily spot duplicate entries.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 8.0,
+    "clarity": 7.0,
+    "terminology": 6.0,
+    "efficiency": 7.5
+  },
+  {
+    "question": "124. How do you transpose data from rows to columns?",
+    "answer": "Use the TRANSPOSE function orPaste Special > Transposeto switch rows to columns or vice versa.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 9.0,
+    "clarity": 7.0,
+    "terminology": 7.5,
+    "efficiency": 8.0
+  },
+  {
+    "question": "125. How do you use the LAMBDA function in Excel 365?",
+    "answer": "LAMBDA creates custom reusable functions. For example,=LAMBDA(x, x^2)(5)calculates the square of 5 and returns 25.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 7.0,
+    "efficiency": 9.0
+  },
+  {
+    "question": "126. How do you apply conditional formatting based on another cell\u2019s value?",
+    "answer": "Use a custom formula in conditional formatting. For example, apply=A1>100to format cells where the value is greater than 100.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 7.0,
+    "clarity": 6.0,
+    "terminology": 6.5,
+    "efficiency": 5.0
+  },
+  {
+    "question": "127. How do you group data in a Pivot Table?",
+    "answer": "Right-click a value in the Pivot Table and selectGroup. Grouping can be used to organize dates into months, quarters, or years.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 8.0,
+    "clarity": 7.5,
+    "terminology": 7.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "128. How do you remove extra spaces from text in Excel?",
+    "answer": "Use theTRIMfunction to remove unnecessary spaces, leaving only single spaces between words.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 9.0,
+    "clarity": 8.5,
+    "terminology": 8.0,
+    "efficiency": 9.0
+  },
+  {
+    "question": "129. How do you use the DAX language in Power Pivot?",
+    "answer": "DAX (Data Analysis Expressions) is used in Power Pivot to create calculated columns and measures. For example,=SUM(Sales[Amount])calculates the total sales.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 8.0,
+    "clarity": 7.0,
+    "terminology": 7.0,
+    "efficiency": 8.0
+  },
+  {
+    "question": "130. How do you use the AVERAGEIF function?",
+    "answer": "AVERAGEIF calculates the average of a range based on a condition. For example,=AVERAGEIF(A1:A10, \">50\")returns the average of numbers greater than 50.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 8.0,
+    "clarity": 8.0,
+    "terminology": 7.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "131. How do you highlight top 10 values in Excel?",
+    "answer": "Use conditional formatting with the ruleTop/Bottom Rules > Top 10 Itemsto automatically highlight the highest values in a dataset.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 8.5,
+    "efficiency": 9.0
+  },
+  {
+    "question": "132. How do you automate repetitive tasks in Excel?",
+    "answer": "Automate tasks using VBA macros or Excel\u2019s built-in Power Automate tools to streamline recurring workflows.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 8.0,
+    "clarity": 7.0,
+    "terminology": 7.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "133. How do you calculate the mode of a dataset in Excel?",
+    "answer": "Use theMODE.SNGLfunction to find the most frequently occurring number in a dataset.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 8.0,
+    "efficiency": 9.0
+  },
+  {
+    "question": "134. How do you create an amortization schedule in Excel?",
+    "answer": "Use thePMT,IPMT, andPPMTfunctions to calculate loan payments, interest, and principal for each period.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 7.0,
+    "clarity": 5.0,
+    "terminology": 7.5,
+    "efficiency": 5.0
+  },
+  {
+    "question": "135. How do you use the CONCAT function?",
+    "answer": "The CONCAT function combines text from multiple ranges into one string. For example,=CONCAT(A1:A5)concatenates all values in the range A1:A5.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 8.0,
+    "clarity": 7.0,
+    "terminology": 7.5,
+    "efficiency": 6.0
+  },
+  {
+    "question": "136. How do you use Excel to manage inventory?",
+    "answer": "Create an inventory tracker using tables, formulas likeSUMIFfor totals, and conditional formatting to flag low stock levels.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 7.0,
+    "clarity": 7.0,
+    "terminology": 6.0,
+    "efficiency": 5.0
+  },
+  {
+    "question": "137. How do you find the nth largest value in a dataset?",
+    "answer": "Use theLARGEfunction, such as=LARGE(A1:A10, 3), to find the 3rd largest value in a range.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 10.0,
+    "clarity": 9.0,
+    "terminology": 9.0,
+    "efficiency": 10.0
+  },
+  {
+    "question": "138. How do you calculate Net Present Value (NPV) in Excel?",
+    "answer": "Use theNPVfunction to calculate the present value of cash flows based on a discount rate. For example,=NPV(10%, A1:A5)calculates NPV with a 10% rate.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 6.0,
+    "clarity": 7.0,
+    "terminology": 6.0,
+    "efficiency": 5.0
+  },
+  {
+    "question": "139. How do you create an interactive data summary in Excel?",
+    "answer": "Combine Pivot Tables with slicers and charts to create a dynamic dashboard for interactive data exploration.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 8.0,
+    "efficiency": 9.0
+  },
+  {
+    "question": "140. How do you use the OFFSET function for dynamic ranges?",
+    "answer": "OFFSET defines a range based on a reference point. For example,=OFFSET(A1, 0, 0, COUNTA(A:A))adjusts dynamically as new data is added.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 8.0,
+    "clarity": 6.0,
+    "terminology": 6.0,
+    "efficiency": 6.0
+  },
+  {
+    "question": "141. How do you calculate the median in Excel?",
+    "answer": "Use theMEDIANfunction to find the middle value of a dataset. For example,=MEDIAN(A1:A10)returns the median value in A1:A10.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 10.0,
+    "clarity": 9.0,
+    "terminology": 8.5,
+    "efficiency": 10.0
+  },
+  {
+    "question": "142. How do you analyze time-series data in Excel?",
+    "answer": "Use line charts with trendlines or theFORECAST.LINEARfunction to identify patterns and make predictions.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 7.0,
+    "clarity": 7.0,
+    "terminology": 6.0,
+    "efficiency": 6.5
+  },
+  {
+    "question": "143. How do you create a formula to compare two lists?",
+    "answer": "Use=IF(COUNTIF(List1, List2)>0, \"Match\", \"No Match\")to compare items in two lists.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 5.0,
+    "clarity": 4.0,
+    "terminology": 4.0,
+    "efficiency": 3.0
+  },
+  {
+    "question": "144. How do you apply a custom number format?",
+    "answer": "Go toFormat Cells > Customand enter a format code like\"Total: \"$#,##0to display numbers with custom text or styles.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 7.0,
+    "clarity": 5.0,
+    "terminology": 6.0,
+    "efficiency": 6.0
+  },
+  {
+    "question": "145. How do you use the HYPERLINK function?",
+    "answer": "The HYPERLINK function creates clickable links. For example,=HYPERLINK(\"https://example.com/\", \"Visit Site\")generates a link labeled \"Visit Site.\"",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 8.0,
+    "efficiency": 9.0
+  },
+  {
+    "question": "146. How do you calculate the frequency of data in Excel?",
+    "answer": "Use theFREQUENCYfunction to calculate how often values occur within intervals. For example,=FREQUENCY(A1:A10, B1:B5)counts occurrences in specified bins.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 9.0,
+    "clarity": 7.0,
+    "terminology": 8.0,
+    "efficiency": 8.0
+  },
+  {
+    "question": "147. How do you use the ROUNDDOWN function?",
+    "answer": "ROUNDDOWN always rounds a number down to the specified number of digits. For example,=ROUNDDOWN(12.345, 2)returns 12.34.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 7.0,
+    "efficiency": 9.0
+  },
+  {
+    "question": "148. How do you use the ROUNDUP function?",
+    "answer": "ROUNDUP always rounds a number up. For example,=ROUNDUP(12.345, 2)returns 12.35.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 7.0,
+    "efficiency": 8.0
+  },
+  {
+    "question": "149. How do you highlight weekends in a date range?",
+    "answer": "Use conditional formatting with a formula like=OR(WEEKDAY(A1)=1, WEEKDAY(A1)=7)to identify weekends.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 8.0,
+    "clarity": 6.0,
+    "terminology": 7.0,
+    "efficiency": 6.5
+  },
+  {
+    "question": "150. How do you analyze customer churn in Excel?",
+    "answer": "Calculate churn rates using=COUNTIF(Status, \"Lost\")/COUNTA(Status)and visualize trends using line or bar charts.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 8.0,
+    "clarity": 7.0,
+    "terminology": 7.0,
+    "efficiency": 8.0
+  },
+  {
+    "question": "151. How do you calculate payback period in Excel?",
+    "answer": "Calculate cumulative cash flows and identify the period where the cumulative value becomes positive.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 7.0,
+    "clarity": 6.5,
+    "terminology": 6.0,
+    "efficiency": 6.0
+  },
+  {
+    "question": "152. How do you use data bars in conditional formatting?",
+    "answer": "ApplyConditional Formatting > Data Barsto visualize numeric values as horizontal bars.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 6.0,
+    "clarity": 4.0,
+    "terminology": 5.0,
+    "efficiency": 6.0
+  },
+  {
+    "question": "153. How do you find blank cells in a range?",
+    "answer": "Use theISBLANKfunction combined with conditional formatting or a filter to identify empty cells.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 9.0,
+    "clarity": 7.0,
+    "terminology": 8.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "154. How do you calculate growth rates in Excel?",
+    "answer": "Use the formula=((Ending Value / Starting Value)^(1/Years)) - 1to calculate Compound Annual Growth Rate (CAGR).",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 7.0,
+    "efficiency": 8.0
+  },
+  {
+    "question": "155. How do you use Power Automate with Excel?",
+    "answer": "Power Automate integrates Excel with other applications to automate workflows like data updates, notifications, or report generation.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 7.0,
+    "clarity": 7.0,
+    "terminology": 6.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "156. How do you use a scatter plot in Excel?",
+    "answer": "Insert a scatter plot (Insert > Chart > Scatter) to visualize relationships between two variables, such as sales and advertising spend.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 7.0,
+    "efficiency": 9.0
+  },
+  {
+    "question": "157. How do you calculate a breakeven point in Excel?",
+    "answer": "Use the formula=Fixed Costs / (Selling Price - Variable Costs)to determine the sales quantity needed to cover costs.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 9.5,
+    "clarity": 9.0,
+    "terminology": 9.0,
+    "efficiency": 9.0
+  },
+  {
+    "question": "158. How do you create a running balance in Excel?",
+    "answer": "Use a formula like=Previous Balance + Inflows - Outflowsto calculate balances row by row.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 7.0,
+    "clarity": 5.0,
+    "terminology": 4.0,
+    "efficiency": 6.0
+  },
+  {
+    "question": "159. How do you find cells with errors in Excel?",
+    "answer": "Use theISERRORfunction combined with conditional formatting to highlight cells with errors.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 7.0,
+    "clarity": 6.0,
+    "terminology": 6.0,
+    "efficiency": 5.0
+  },
+  {
+    "question": "160. How do you automate email notifications with Excel?",
+    "answer": "Use VBA to send emails from Excel based on cell data, or integrate with Power Automate for more advanced automation.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 7.5,
+    "efficiency": 7.0
+  },
+  {
+    "question": "161. How do you extract data from a web page into Excel?",
+    "answer": "UseData > Get Data > From Webto scrape data directly from a web page into an Excel sheet.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 8.0,
+    "clarity": 6.0,
+    "terminology": 5.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "162. How do you consolidate data from multiple workbooks?",
+    "answer": "Use Power Query\u2019sGet Data > Combine Queriesfeature to merge data from multiple Excel files.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 8.0,
+    "clarity": 6.0,
+    "terminology": 7.0,
+    "efficiency": 8.5
+  },
+  {
+    "question": "163. How do you validate data entry in Excel?",
+    "answer": "UseData > Data Validationto restrict entries to specific formats, such as dates, numbers, or text length.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 8.0,
+    "clarity": 6.0,
+    "terminology": 6.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "164. How do you forecast data trends in Excel?",
+    "answer": "Use theFORECAST.ETSfunction for seasonal forecasting or create a trendline in a chart to project future values.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 9.0,
+    "clarity": 7.0,
+    "terminology": 7.0,
+    "efficiency": 8.0
+  },
+  {
+    "question": "165. How do you summarize large datasets quickly?",
+    "answer": "Use Pivot Tables to group and analyze data, and Power Query to clean and reshape large datasets before summarization.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 8.5,
+    "efficiency": 8.0
+  },
+  {
+    "question": "166. How do you calculate ROI for a marketing campaign in Excel?",
+    "answer": "ROI is calculated using the formula(Revenue - Cost) / Cost. For example, if a campaign cost $5,000 and generated $15,000 in revenue,=(15000 - 5000) / 5000gives an ROI of 200%.",
+    "type": "Marketing-Specific Excel",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 7.0,
+    "efficiency": 8.0
+  },
+  {
+    "question": "167. How do you track marketing campaign performance in Excel?",
+    "answer": "Create a table with columns for metrics like impressions, clicks, and conversions. Use Pivot Tables to summarize and analyze the data, and charts to visualize trends.",
+    "type": "Marketing-Specific Excel",
+    "correctness": 8.0,
+    "clarity": 8.0,
+    "terminology": 7.5,
+    "efficiency": 7.0
+  },
+  {
+    "question": "168. How do you calculate customer acquisition cost (CAC)?",
+    "answer": "Use the formulaTotal Marketing Expenses / Number of New Customers. For example, if marketing expenses are $50,000 and 1,000 new customers are acquired, CAC is$50.",
+    "type": "Marketing-Specific Excel",
+    "correctness": 7.0,
+    "clarity": 7.0,
+    "terminology": 6.0,
+    "efficiency": 8.0
+  },
+  {
+    "question": "169. How do you analyze customer segmentation in Excel?",
+    "answer": "Group customers by demographics, purchasing behavior, or engagement levels using Pivot Tables. Visualize the segments with pie or bar charts.",
+    "type": "Marketing-Specific Excel",
+    "correctness": 6.0,
+    "clarity": 7.0,
+    "terminology": 5.0,
+    "efficiency": 6.0
+  },
+  {
+    "question": "170. How do you calculate the conversion rate in Excel?",
+    "answer": "Conversion rate is calculated as(Conversions / Total Visitors) * 100. For instance, if there are 500 visitors and 50 conversions, the conversion rate is(50 / 500) * 100 = 10%.",
+    "type": "Marketing-Specific Excel",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 8.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "171. How do you create a financial model in Excel?",
+    "answer": "Build separate sheets for inputs, calculations, and outputs. Use formulas likeNPV,IRR, andPMTto analyze cash flows, valuations, and debt schedules.",
+    "type": "Finance-Specific Excel",
+    "correctness": 7.0,
+    "clarity": 6.0,
+    "terminology": 7.0,
+    "efficiency": 5.0
+  },
+  {
+    "question": "172. How do you perform a sensitivity analysis in Excel?",
+    "answer": "UseData > What-If Analysis > Data Tableto vary input values and see their impact on key financial metrics, such as profit or ROI.",
+    "type": "Finance-Specific Excel",
+    "correctness": 8.0,
+    "clarity": 6.0,
+    "terminology": 7.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "173. How do you calculate loan payments in Excel?",
+    "answer": "Use thePMTfunction. For example,=PMT(5%/12, 60, -10000)calculates the monthly payment for a loan of $10,000 with a 5% annual interest rate over 60 months.",
+    "type": "Finance-Specific Excel",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 8.0,
+    "efficiency": 9.0
+  },
+  {
+    "question": "175. How do you track and reconcile financial transactions in Excel?",
+    "answer": "UseVLOOKUP,XLOOKUP, orINDEX-MATCHto match transaction records between two sheets and highlight discrepancies with conditional formatting.",
+    "type": "Finance-Specific Excel",
+    "correctness": 7.0,
+    "clarity": 6.0,
+    "terminology": 7.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "176. How do you calculate employee turnover rates in Excel?",
+    "answer": "Turnover rate is calculated as(Number of Leavers / Average Number of Employees) * 100. For example, if 10 employees leave out of 200, the rate is(10 / 200) * 100 = 5%.",
+    "type": "HR-Specific Excel Interview",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 7.0,
+    "efficiency": 8.0
+  },
+  {
+    "question": "177. How do you track employee attendance in Excel?",
+    "answer": "Create a table with columns for dates and employees. UseCOUNTIFto count attendance status like \u201cPresent\u201d or \u201cAbsent\u201d for each employee.",
+    "type": "HR-Specific Excel Interview",
+    "correctness": 7.0,
+    "clarity": 6.0,
+    "terminology": 6.0,
+    "efficiency": 5.0
+  },
+  {
+    "question": "178. How do you automate payroll calculations in Excel?",
+    "answer": "Use formulas likeGross Pay - Deductions = Net PayandIFfunctions to calculate tax brackets. For example,=IF(Salary>50000, Salary*0.3, Salary*0.2)applies tiered tax rates.",
+    "type": "HR-Specific Excel Interview",
+    "correctness": 7.0,
+    "clarity": 6.0,
+    "terminology": 5.0,
+    "efficiency": 5.0
+  },
+  {
+    "question": "179. How do you create a training tracker in Excel?",
+    "answer": "Use conditional formatting to highlight completed training sessions. Add a progress tracker column with a formula like=(Completed Modules / Total Modules) * 100.",
+    "type": "HR-Specific Excel Interview",
+    "correctness": 6.5,
+    "clarity": 7.0,
+    "terminology": 6.0,
+    "efficiency": 6.0
+  },
+  {
+    "question": "180. How do you manage recruitment data in Excel?",
+    "answer": "Use Excel tables to organize candidate details. Use filters to sort candidates by status, and charts to visualize metrics like time-to-hire and source effectiveness.",
+    "type": "HR-Specific Excel Interview",
+    "correctness": 8.0,
+    "clarity": 7.5,
+    "terminology": 7.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "181. How do you create a project schedule in Excel?",
+    "answer": "Use a Gantt chart with task names, start dates, and durations. Use conditional formatting to highlight task progress and overdue tasks.",
+    "type": "Project Management Specific Excel Interview",
+    "correctness": 8.0,
+    "clarity": 7.0,
+    "terminology": 7.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "182. How do you calculate project costs in Excel?",
+    "answer": "Create a table for tasks, estimated costs, and actual costs. UseSUMto calculate totals and=(Actual - Estimated) / Estimated * 100to calculate cost variance percentages.",
+    "type": "Project Management Specific Excel Interview",
+    "correctness": 7.0,
+    "clarity": 6.0,
+    "terminology": 5.0,
+    "efficiency": 6.0
+  },
+  {
+    "question": "183. How do you use Excel for resource allocation?",
+    "answer": "Create a resource matrix with tasks as rows and team members as columns. Use formulas to calculate workloads and highlight over-allocated resources.",
+    "type": "Project Management Specific Excel Interview",
+    "correctness": 7.0,
+    "clarity": 7.0,
+    "terminology": 7.0,
+    "efficiency": 6.0
+  },
+  {
+    "question": "184. How do you track project progress using Excel?",
+    "answer": "UseConditional Formattingto create progress bars in cells. Calculate completion percentages with=(Completed Tasks / Total Tasks) * 100.",
+    "type": "Project Management Specific Excel Interview",
+    "correctness": 7.0,
+    "clarity": 5.0,
+    "terminology": 6.0,
+    "efficiency": 5.0
+  },
+  {
+    "question": "185. How do you identify project risks in Excel?",
+    "answer": "Create a risk assessment matrix with probability and impact scores. Use conditional formatting to color-code high, medium, and low-risk items.",
+    "type": "Project Management Specific Excel Interview",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 7.0,
+    "efficiency": 8.0
+  },
+  {
+    "question": "186. How do you audit financial statements using Excel?",
+    "answer": "UsePivot Tablesto summarize large datasets andVLOOKUPorXLOOKUPto reconcile ledger entries. Highlight anomalies using conditional formatting.",
+    "type": "Chartered Accountant (CA) and Company Secretary (CS) Excel Interview",
+    "correctness": 6.0,
+    "clarity": 5.0,
+    "terminology": 6.0,
+    "efficiency": 6.0
+  },
+  {
+    "question": "188. How do you handle depreciation schedules in Excel?",
+    "answer": "Use theSLNandDBfunctions to calculate straight-line and declining balance depreciation. Create tables to track yearly depreciation values.",
+    "type": "Chartered Accountant (CA) and Company Secretary (CS) Excel Interview",
+    "correctness": 8.0,
+    "clarity": 7.0,
+    "terminology": 7.0,
+    "efficiency": 6.0
+  },
+  {
+    "question": "189. How do you calculate dividend payouts in Excel?",
+    "answer": "Use the formulaNet Profit * Dividend Payout Ratio. For example, if net profit is $1,000,000 and the payout ratio is 30%, the dividend is$300,000.",
+    "type": "Chartered Accountant (CA) and Company Secretary (CS) Excel Interview",
+    "correctness": 8.0,
+    "clarity": 7.0,
+    "terminology": 6.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "190. How do you track compliance deadlines in Excel?",
+    "answer": "Create a table with deadlines and statuses. Use conditional formatting to flag overdue tasks and reminders.",
+    "type": "Chartered Accountant (CA) and Company Secretary (CS) Excel Interview",
+    "correctness": 7.0,
+    "clarity": 8.0,
+    "terminology": 6.0,
+    "efficiency": 6.0
+  },
+  {
+    "question": "191. How do you use Excel shortcuts to speed up workflows?",
+    "answer": "Memorize common shortcuts likeCtrl + C(copy),Ctrl + V(paste), andAlt + H + O + I(auto-fit column width) for faster navigation and data entry.",
+    "type": "Excel Tricks and Shortcuts Interview",
+    "correctness": 8.0,
+    "clarity": 7.0,
+    "terminology": 7.0,
+    "efficiency": 6.0
+  },
+  {
+    "question": "192. How do you use Flash Fill in Excel?",
+    "answer": "Flash Fill automatically fills patterns based on the first example. UseCtrl + Eto quickly split or combine text without complex formulas.",
+    "type": "Excel Tricks and Shortcuts Interview",
+    "correctness": 8.0,
+    "clarity": 7.0,
+    "terminology": 7.0,
+    "efficiency": 8.0
+  },
+  {
+    "question": "193. How do you create drop-down lists in Excel?",
+    "answer": "UseData Validation > Listto create a dropdown. Enter the items manually or reference a cell range for dynamic lists.",
+    "type": "Excel Tricks and Shortcuts Interview",
+    "correctness": 9.5,
+    "clarity": 8.0,
+    "terminology": 7.5,
+    "efficiency": 9.0
+  },
+  {
+    "question": "194. How do you use Quick Analysis in Excel?",
+    "answer": "Select a range and click the Quick Analysis icon to access formatting, charts, totals, and more. This provides instant visualizations and summaries.",
+    "type": "Excel Tricks and Shortcuts Interview",
+    "correctness": 9.0,
+    "clarity": 8.5,
+    "terminology": 8.0,
+    "efficiency": 9.0
+  },
+  {
+    "question": "195. How do you split text into columns without formulas?",
+    "answer": "UseData > Text to Columnsand select a delimiter (e.g., space or comma) to split text into separate cells.",
+    "type": "Excel Tricks and Shortcuts Interview",
+    "correctness": 9.0,
+    "clarity": 7.0,
+    "terminology": 6.0,
+    "efficiency": 8.0
+  },
+  {
+    "question": "196. How do you navigate large datasets efficiently?",
+    "answer": "UseCtrl + Arrow Keysto jump to the edges of data ranges andCtrl + Shift + Arrow Keysto select large ranges.",
+    "type": "Excel Tricks and Shortcuts Interview",
+    "correctness": 9.0,
+    "clarity": 7.0,
+    "terminology": 8.0,
+    "efficiency": 8.0
+  },
+  {
+    "question": "198. How do you create dynamic named ranges?",
+    "answer": "Use theOFFSETfunction to create ranges that adjust automatically as data grows. For example,=OFFSET(A1, 0, 0, COUNTA(A:A)).",
+    "type": "Excel Tricks and Shortcuts Interview",
+    "correctness": 8.0,
+    "clarity": 7.0,
+    "terminology": 7.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "199. How do you quickly sum data in Excel?",
+    "answer": "Use theAlt + =shortcut to automatically insert aSUMformula for a selected range.",
+    "type": "Excel Tricks and Shortcuts Interview",
+    "correctness": 10.0,
+    "clarity": 9.0,
+    "terminology": 9.0,
+    "efficiency": 10.0
+  },
+  {
+    "question": "200. How do you lock cells in Excel?",
+    "answer": "Select cells, go toFormat Cells > Protection, and checkLocked. Protect the sheet to enforce cell locking.",
+    "type": "Excel Tricks and Shortcuts Interview",
+    "correctness": 9.0,
+    "clarity": 8.0,
+    "terminology": 8.0,
+    "efficiency": 9.0
+  },
+  {
+    "question": "1. What is Microsoft Excel?",
+    "answer": "Microsoft Excel is a program for numbers.",
+    "type": "Beginner",
+    "correctness": 3.0,
+    "clarity": 5.0,
+    "terminology": 2.0,
+    "efficiency": 4.0
+  },
+  {
+    "question": "2. What is a cell in Excel?",
+    "answer": "A cell in Excel is just a box where you can type something.",
+    "type": "Beginner",
+    "correctness": 3.0,
+    "clarity": 5.0,
+    "terminology": 2.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "3. How do you save a file in Excel?",
+    "answer": "I think you just click on 'Save' somewhere in the menu, but I'm not sure exactly where.",
+    "type": "Beginner",
+    "correctness": 3.0,
+    "clarity": 4.0,
+    "terminology": 2.0,
+    "efficiency": 3.0
+  },
+  {
+    "question": "4. What is a workbook in Excel?",
+    "answer": "I'm not sure, but I think a workbook is just a single spreadsheet in Excel.",
+    "type": "Beginner",
+    "correctness": 2.0,
+    "clarity": 5.0,
+    "terminology": 2.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "5. How do you insert a new worksheet?",
+    "answer": "You can just click somewhere and hope a new worksheet appears.",
+    "type": "Beginner",
+    "correctness": 0.2,
+    "clarity": 0.4,
+    "terminology": 0.1,
+    "efficiency": 0.1
+  },
+  {
+    "question": "6. What is the Ribbon in Excel?",
+    "answer": "The Ribbon in Excel is like a toolbar but I\u2019m not sure exactly what it includes or does.",
+    "type": "Beginner",
+    "correctness": 2.0,
+    "clarity": 2.5,
+    "terminology": 1.0,
+    "efficiency": 3.0
+  },
+  {
+    "question": "7. How do you use Undo and Redo in Excel?",
+    "answer": "To undo in Excel, you can press Ctrl + Z, and for redo, you use Ctrl + Y. These commands help reverse or reapply your last changes.",
+    "type": "Beginner",
+    "correctness": 7.0,
+    "clarity": 8.0,
+    "terminology": 5.0,
+    "efficiency": 6.0
+  },
+  {
+    "question": "8. What is the shortcut for copying data?",
+    "answer": "I think you press Ctrl + P to copy data.",
+    "type": "Beginner",
+    "correctness": 0.0,
+    "clarity": 1.0,
+    "terminology": 0.5,
+    "efficiency": 1.0
+  },
+  {
+    "question": "9. What is the formula bar in Excel?",
+    "answer": "It's a bar where you can sometimes see the formula or data in a cell, but I'm not exactly sure all that it does.",
+    "type": "Beginner",
+    "correctness": 3.0,
+    "clarity": 4.0,
+    "terminology": 2.0,
+    "efficiency": 3.0
+  },
+  {
+    "question": "10. How do you merge cells in Excel?",
+    "answer": "I think you can merge cells by just clicking and dragging over them and pressing a key, but I'm not sure exactly which key or menu option to use.",
+    "type": "Beginner",
+    "correctness": 2.0,
+    "clarity": 4.0,
+    "terminology": 2.0,
+    "efficiency": 1.0
+  },
+  {
+    "question": "11. What is the difference between a column and a row?",
+    "answer": "A column is a vertical set of cells, and a row is a horizontal set of cells.",
+    "type": "Beginner",
+    "correctness": 4.0,
+    "clarity": 7.0,
+    "terminology": 3.0,
+    "efficiency": 6.0
+  },
+  {
+    "question": "12. How do you wrap text in a cell?",
+    "answer": "You click on the cell and maybe press some key to make the text go to a new line, but I'm not exactly sure which one.",
+    "type": "Beginner",
+    "correctness": 2.0,
+    "clarity": 3.0,
+    "terminology": 1.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "13. What are cell references in Excel?",
+    "answer": "Cell references in Excel are like labels for cells, but I'm not sure exactly how they work or the types of references.",
+    "type": "Beginner",
+    "correctness": 2.0,
+    "clarity": 5.0,
+    "terminology": 1.0,
+    "efficiency": 3.0
+  },
+  {
+    "question": "14. How do you delete a worksheet?",
+    "answer": "I think you can delete a worksheet by selecting it and pressing the Delete key on your keyboard.",
+    "type": "Beginner",
+    "correctness": 2.0,
+    "clarity": 3.0,
+    "terminology": 2.0,
+    "efficiency": 1.0
+  },
+  {
+    "question": "15. How do you adjust column width?",
+    "answer": "You can adjust column width by dragging the line between column headers.",
+    "type": "Beginner",
+    "correctness": 0.5,
+    "clarity": 0.8,
+    "terminology": 0.6,
+    "efficiency": 0.7
+  },
+  {
+    "question": "16. What is a formula in Excel?",
+    "answer": "A formula in Excel is just some numbers and symbols typed in a cell that do something like add or subtract.",
+    "type": "Intermediate",
+    "correctness": 3.0,
+    "clarity": 5.0,
+    "terminology": 2.0,
+    "efficiency": 4.0
+  },
+  {
+    "question": "17. What is conditional formatting in Excel?",
+    "answer": "Conditional formatting is when Excel makes your cells look different if certain things happen, like a number being big or small. It changes colors or fonts automatically based on simple rules.",
+    "type": "Intermediate",
+    "correctness": 4.0,
+    "clarity": 7.0,
+    "terminology": 3.0,
+    "efficiency": 6.0
+  },
+  {
+    "question": "18. What is a Pivot Table?",
+    "answer": "A Pivot Table is a tool in Excel that lets you organize data in a table to see summaries.",
+    "type": "Intermediate",
+    "correctness": 4.0,
+    "clarity": 6.0,
+    "terminology": 3.0,
+    "efficiency": 5.0
+  },
+  {
+    "question": "19. How do you apply filters in Excel?",
+    "answer": "I think you just select some cells and then click something like a filter button somewhere, but I'm not sure exactly where.",
+    "type": "Intermediate",
+    "correctness": 3.0,
+    "clarity": 4.0,
+    "terminology": 2.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "20. What is the VLOOKUP function?",
+    "answer": "VLOOKUP is a function that searches for data vertically in a table to find a matching value and return a value from another column.",
+    "type": "Intermediate",
+    "correctness": 5.0,
+    "clarity": 6.0,
+    "terminology": 4.0,
+    "efficiency": 5.0
+  },
+  {
+    "question": "21. What is the difference between COUNT and COUNTA?",
+    "answer": "COUNT counts only cells with numbers, whereas COUNTA counts all non-empty cells including text and numbers.",
+    "type": "Intermediate",
+    "correctness": 0.8,
+    "clarity": 0.9,
+    "terminology": 0.7,
+    "efficiency": 0.9
+  },
+  {
+    "question": "22. How do you create a chart in Excel?",
+    "answer": "You select some data and then click on the Insert tab to find the chart options and pick one.",
+    "type": "Intermediate",
+    "correctness": 4.0,
+    "clarity": 6.0,
+    "terminology": 3.0,
+    "efficiency": 5.0
+  },
+  {
+    "question": "23. What is the CONCATENATE function?",
+    "answer": "The CONCATENATE function is used to join text strings or values from different cells into one combined text string in Excel.",
+    "type": "Intermediate",
+    "correctness": 0.8,
+    "clarity": 0.9,
+    "terminology": 0.7,
+    "efficiency": 0.9
+  },
+  {
+    "question": "24. How do you remove duplicates in Excel?",
+    "answer": "You can try using the Remove Duplicates option under the Data tab, but I'm not sure of the exact steps or if there are better methods.",
+    "type": "Intermediate",
+    "correctness": 0.4,
+    "clarity": 0.6,
+    "terminology": 0.5,
+    "efficiency": 0.3
+  },
+  {
+    "question": "25. What is data validation?",
+    "answer": "Data validation is something in Excel to check data.",
+    "type": "Intermediate",
+    "correctness": 2.0,
+    "clarity": 3.0,
+    "terminology": 1.0,
+    "efficiency": 3.0
+  },
+  {
+    "question": "26. What is Power Query?",
+    "answer": "Power Query is a feature in Excel that helps users do some data-related tasks like importing and changing data.",
+    "type": "Advanced",
+    "correctness": 3.0,
+    "clarity": 6.0,
+    "terminology": 2.0,
+    "efficiency": 3.0
+  },
+  {
+    "question": "27. What is the XLOOKUP function?",
+    "answer": "XLOOKUP is a function in Excel that looks up a value and returns a corresponding value from a list, but I don't remember the exact syntax or all its features.",
+    "type": "Advanced",
+    "correctness": 0.4,
+    "clarity": 0.7,
+    "terminology": 0.3,
+    "efficiency": 0.6
+  },
+  {
+    "question": "28. What is the purpose of macros in Excel?",
+    "answer": "Macros in Excel are used to automate some tasks, but I'm not sure exactly how they work or what all they do.",
+    "type": "Advanced",
+    "correctness": 3.0,
+    "clarity": 4.0,
+    "terminology": 2.0,
+    "efficiency": 4.0
+  },
+  {
+    "question": "29. What is the IF function?",
+    "answer": "The IF function in Excel is used to check a condition and then return one value if the condition is true and another value if it is false.",
+    "type": "Advanced",
+    "correctness": 0.7,
+    "clarity": 0.8,
+    "terminology": 0.6,
+    "efficiency": 0.7
+  },
+  {
+    "question": "30. How do INDEX and MATCH work together?",
+    "answer": "INDEX returns a value from a table based on positions, and MATCH finds the position of a value; combining them helps find a value by looking up a row or column dynamically.",
+    "type": "Advanced",
+    "correctness": 0.6,
+    "clarity": 0.7,
+    "terminology": 0.5,
+    "efficiency": 0.6
+  },
+  {
+    "question": "31. What are array formulas?",
+    "answer": "Array formulas in Excel are formulas that can perform calculations on multiple values or ranges at once, but I'm not sure how exactly they work or how to use them properly.",
+    "type": "Advanced",
+    "correctness": 4.0,
+    "clarity": 6.0,
+    "terminology": 3.0,
+    "efficiency": 4.0
+  },
+  {
+    "question": "32. What is a slicer in Excel?",
+    "answer": "A slicer in Excel is some kind of tool you can use to maybe select data visually, but I'm not exactly sure how it works or what for.",
+    "type": "Advanced",
+    "correctness": 0.3,
+    "clarity": 0.5,
+    "terminology": 0.2,
+    "efficiency": 0.4
+  },
+  {
+    "question": "33. What is the TEXT function?",
+    "answer": "The TEXT function in Excel is used to convert a number into text, but I\u2019m not sure about the exact syntax or the kinds of formats you can apply.",
+    "type": "Advanced",
+    "correctness": 3.0,
+    "clarity": 5.0,
+    "terminology": 2.0,
+    "efficiency": 4.0
+  },
+  {
+    "question": "34. What is the ROUND function?",
+    "answer": "The ROUND function in Excel is used to change the number of decimal places for a value, kind of making the number simpler, but I'm not sure about the exact details or syntax.",
+    "type": "Advanced",
+    "correctness": 2.0,
+    "clarity": 5.0,
+    "terminology": 3.0,
+    "efficiency": 4.0
+  },
+  {
+    "question": "35. What is the TRIM function?",
+    "answer": "The TRIM function in Excel removes extra spaces from text, leaving only single spaces between words.",
+    "type": "Advanced",
+    "correctness": 4.0,
+    "clarity": 4.0,
+    "terminology": 3.0,
+    "efficiency": 3.0
+  },
+  {
+    "question": "36. How do you use Goal Seek in Excel?",
+    "answer": "Goal Seek is a feature in Excel where you can set a target value for a formula and change a related input cell to find the needed input. You access it under the Data tab and use What-If Analysis, then Goal Seek.",
+    "type": "Advanced",
+    "correctness": 6.0,
+    "clarity": 7.0,
+    "terminology": 5.0,
+    "efficiency": 6.0
+  },
+  {
+    "question": "37. What is Solver in Excel?",
+    "answer": "Solver in Excel is a tool that helps find a solution by changing some values to meet a goal, but I'm not sure about its exact details or how it handles constraints or optimization.",
+    "type": "Advanced",
+    "correctness": 3.0,
+    "clarity": 6.0,
+    "terminology": 2.0,
+    "efficiency": 5.0
+  },
+  {
+    "question": "38. What is the PMT function?",
+    "answer": "The PMT function calculates payments, but I don't recall exactly how the inputs work or what it really does.",
+    "type": "Advanced",
+    "correctness": 0.2,
+    "clarity": 0.5,
+    "terminology": 0.1,
+    "efficiency": 0.3
+  },
+  {
+    "question": "39. How do you create a dependent drop-down list?",
+    "answer": "You create a dependent drop-down list by using data validation with a formula referencing another cell, but I\u2019m not sure exactly which formula to use.",
+    "type": "Advanced",
+    "correctness": 0.3,
+    "clarity": 0.6,
+    "terminology": 0.5,
+    "efficiency": 0.4
+  },
+  {
+    "question": "40. What is a dynamic chart in Excel?",
+    "answer": "A dynamic chart in Excel is a type of chart that updates its data automatically when changes are made to its source data.",
+    "type": "Advanced",
+    "correctness": 0.8,
+    "clarity": 0.7,
+    "terminology": 0.6,
+    "efficiency": 0.5
+  },
+  {
+    "question": "41. How do you use Power Pivot in Excel?",
+    "answer": "Power Pivot is an add-in in Excel that helps create data models and analyze data using pivot tables and charts, but I am not sure about the detailed steps or features.",
+    "type": "Advanced",
+    "correctness": 3.0,
+    "clarity": 7.0,
+    "terminology": 2.0,
+    "efficiency": 4.0
+  },
+  {
+    "question": "42. What is the NETWORKDAYS function?",
+    "answer": "NETWORKDAYS counts the number of days between two dates but ignores weekends and holidays.",
+    "type": "Advanced",
+    "correctness": 0.7,
+    "clarity": 0.8,
+    "terminology": 0.6,
+    "efficiency": 0.9
+  },
+  {
+    "question": "43. How do you split text into columns?",
+    "answer": "I think you can just select the cells and maybe try using some formula, but I\u2019m not exactly sure which one or how it works.",
+    "type": "Advanced",
+    "correctness": 2.0,
+    "clarity": 3.0,
+    "terminology": 1.0,
+    "efficiency": 1.0
+  },
+  {
+    "question": "44. How do you compare two datasets in Excel?",
+    "answer": "I think you can just look at the two lists side by side and see if they look the same, but I\u2019m not sure about Excel functions for this.",
+    "type": "Advanced",
+    "correctness": 2.0,
+    "clarity": 4.0,
+    "terminology": 1.0,
+    "efficiency": 1.0
+  },
+  {
+    "question": "45. How do you calculate CAGR (Compound Annual Growth Rate) in Excel?",
+    "answer": "You can calculate CAGR in Excel by dividing the ending value by the starting value, then raising it to the power of one divided by the number of years minus one.",
+    "type": "Advanced",
+    "correctness": 0.4,
+    "clarity": 0.6,
+    "terminology": 0.3,
+    "efficiency": 0.5
+  },
+  {
+    "question": "46. What is the UNIQUE function?",
+    "answer": "The UNIQUE function in Excel is used to find distinct values in a list or range of cells.",
+    "type": "Advanced",
+    "correctness": 0.6,
+    "clarity": 0.8,
+    "terminology": 0.6,
+    "efficiency": 0.7
+  },
+  {
+    "question": "47. How do you calculate a weighted average in Excel?",
+    "answer": "I think you just use the AVERAGE function to calculate a weighted average.",
+    "type": "Advanced",
+    "correctness": 2.0,
+    "clarity": 3.0,
+    "terminology": 1.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "48. How do you normalize data in Excel?",
+    "answer": "I think you just select the column and maybe use some filter or sort options to make the data look uniform, but I'm not sure about the exact method.",
+    "type": "Advanced",
+    "correctness": 2.0,
+    "clarity": 4.0,
+    "terminology": 2.0,
+    "efficiency": 3.0
+  },
+  {
+    "question": "49. How do you highlight duplicates in Excel?",
+    "answer": "Uh, I think you can just select the cells and then maybe use some kind of formatting option to mark duplicates, but I'm not sure exactly how it works.",
+    "type": "Advanced",
+    "correctness": 2.0,
+    "clarity": 3.0,
+    "terminology": 1.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "50. How do you use the DATEDIF function?",
+    "answer": "DATEDIF is a function in Excel that calculates the difference between two dates, but I don't remember the exact syntax or the units it uses.",
+    "type": "Advanced",
+    "correctness": 3.0,
+    "clarity": 5.0,
+    "terminology": 2.0,
+    "efficiency": 3.0
+  },
+  {
+    "question": "51. What is the FILTER function?",
+    "answer": "FILTER is a new Excel function used to arrange data based on some conditions. It extracts data matching certain criteria from a range.",
+    "type": "Data Analyst-Specific",
+    "correctness": 0.5,
+    "clarity": 0.7,
+    "terminology": 0.4,
+    "efficiency": 0.8
+  },
+  {
+    "question": "52. What is the SORT function?",
+    "answer": "The SORT function is used to organize data in Excel, but I don't recall exactly how it works or its parameters.",
+    "type": "Data Analyst-Specific",
+    "correctness": 0.3,
+    "clarity": 0.6,
+    "terminology": 0.2,
+    "efficiency": 0.1
+  },
+  {
+    "question": "53. How do you use Excel for regression analysis?",
+    "answer": "I think you open Excel and look for regression under the formulas or charts menus; then you just choose the data and it calculates the results.",
+    "type": "Data Analyst-Specific",
+    "correctness": 2.0,
+    "clarity": 3.0,
+    "terminology": 1.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "54. What is XLOOKUP?",
+    "answer": "XLOOKUP is a function in Excel used to search for a value in a list and return a corresponding result from another list.",
+    "type": "Data Analyst-Specific",
+    "correctness": 0.7,
+    "clarity": 0.8,
+    "terminology": 0.6,
+    "efficiency": 0.7
+  },
+  {
+    "question": "55. How do you automate Excel reports?",
+    "answer": "I think you can maybe use formulas or something, but I'm not sure exactly how to fully automate Excel reports.",
+    "type": "Data Analyst-Specific",
+    "correctness": 2.0,
+    "clarity": 3.0,
+    "terminology": 1.5,
+    "efficiency": 2.0
+  },
+  {
+    "question": "57. How do you use Excel with Power BI?",
+    "answer": "I think you can link Excel files directly to Power BI for some kind of visualization, but I'm not sure exactly how the integration works or what features it offers.",
+    "type": "Data Analyst-Specific",
+    "correctness": 3.0,
+    "clarity": 4.0,
+    "terminology": 2.0,
+    "efficiency": 3.0
+  },
+  {
+    "question": "58. How do you use Excel 365 Copilot for automation?",
+    "answer": "Excel 365 Copilot is used to automate tasks by generating reports and suggesting formulas, but I'm not sure of the specific commands or its detailed capabilities.",
+    "type": "Data Analyst-Specific",
+    "correctness": 3.0,
+    "clarity": 4.0,
+    "terminology": 2.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "59. What is the LET function?",
+    "answer": "The LET function is something in Excel that lets you assign a name to a value or calculation to use later in the same formula, but I don't remember exactly how it works or its full syntax.",
+    "type": "Data Analyst-Specific",
+    "correctness": 3.0,
+    "clarity": 5.0,
+    "terminology": 2.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "60. What is the TEXTAFTER function?",
+    "answer": "TEXTAFTER is an Excel function that extracts text after a specified character or delimiter in a string, but I'm not sure about its full syntax or optional arguments.",
+    "type": "Data Analyst-Specific",
+    "correctness": 5.0,
+    "clarity": 7.0,
+    "terminology": 4.0,
+    "efficiency": 6.0
+  },
+  {
+    "question": "61. What is the TEXTBEFORE function?",
+    "answer": "The TEXTBEFORE function in Excel is used to get some text before a certain character or word, but I'm not exactly sure on all its options or syntax.",
+    "type": "Data Analyst-Specific",
+    "correctness": 0.5,
+    "clarity": 0.7,
+    "terminology": 0.5,
+    "efficiency": 0.6
+  },
+  {
+    "question": "62. How do you use the WRAPCOLS function?",
+    "answer": "WRAPCOLS is used to wrap values from a single row or column into multiple columns by specifying how many values should appear in each column. You provide a vector of values, the number to wrap per column, and optionally a padding value for if the last column is not full.",
+    "type": "Data Analyst-Specific",
+    "correctness": 0.7,
+    "clarity": 0.8,
+    "terminology": 0.7,
+    "efficiency": 0.6
+  },
+  {
+    "question": "63. What is the WRAPROWS function?",
+    "answer": "WRAPROWS is an Excel function that converts a list of values into multiple rows based on a specified number of elements in each row, forming a two-dimensional array.",
+    "type": "Data Analyst-Specific",
+    "correctness": 0.7,
+    "clarity": 0.8,
+    "terminology": 0.6,
+    "efficiency": 0.7
+  },
+  {
+    "question": "64. How do you create dependent drop-down lists in Excel?",
+    "answer": "You create dependent drop-down lists by making a normal drop-down first, then somehow linking it to another list that changes based on what you pick first.",
+    "type": "Data Analyst-Specific",
+    "correctness": 2.0,
+    "clarity": 4.0,
+    "terminology": 1.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "65. How do you calculate ROI (Return on Investment) in Excel?",
+    "answer": "To calculate ROI in Excel, you can just divide the total returns by the investment amount. For example, if the return is in cell B2 and the investment is in A2, you type =B2/A2.",
+    "type": "Data Analyst-Specific",
+    "correctness": 4.0,
+    "clarity": 5.0,
+    "terminology": 3.0,
+    "efficiency": 6.0
+  },
+  {
+    "question": "66. How do you split names into first and last names?",
+    "answer": "You can split the names by using the LEFT and RIGHT functions, guessing where the space might be, but I'm not sure exactly how to handle cases with multiple spaces or middle names.",
+    "type": "Data Analyst-Specific",
+    "correctness": 3.0,
+    "clarity": 4.0,
+    "terminology": 3.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "67. How do you calculate the rank of a value in Excel?",
+    "answer": "I think you use the RANK function by typing =RANK(value, range), but I'm not sure about the order or exact syntax.",
+    "type": "Data Analyst-Specific",
+    "correctness": 3.0,
+    "clarity": 4.0,
+    "terminology": 2.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "68. What is the MAKEARRAY function in Excel?",
+    "answer": "The MAKEARRAY function in Excel is used to create arrays, but I don't remember the exact details or syntax.",
+    "type": "Data Analyst-Specific",
+    "correctness": 0.2,
+    "clarity": 0.8,
+    "terminology": 0.3,
+    "efficiency": 0.5
+  },
+  {
+    "question": "69. How do you handle circular references in Excel?",
+    "answer": "I'm not sure exactly how to handle circular references in Excel, but I think you might just ignore the error or maybe rewrite the formula.",
+    "type": "Data Analyst-Specific",
+    "correctness": 0.2,
+    "clarity": 0.7,
+    "terminology": 0.3,
+    "efficiency": 0.4
+  },
+  {
+    "question": "70. How do you calculate moving averages?",
+    "answer": "You calculate moving averages by just averaging some values, but I'm not sure about the exact method or formulas in Excel.",
+    "type": "Data Analyst-Specific",
+    "correctness": 3.0,
+    "clarity": 4.0,
+    "terminology": 1.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "71. How does Copilot simplify data cleaning?",
+    "answer": "Copilot helps by highlighting some data inconsistencies and may suggest corrections, but I'm not sure exactly how thorough or automatic it is.",
+    "type": "Excel 365 Copilot-Specific",
+    "correctness": 3.0,
+    "clarity": 6.0,
+    "terminology": 4.0,
+    "efficiency": 3.0
+  },
+  {
+    "question": "72. How does Copilot enhance data analysis?",
+    "answer": "Copilot helps with data analysis by automating some tasks and giving quick summaries, but I\u2019m not sure exactly how it works in detail.",
+    "type": "Excel 365 Copilot-Specific",
+    "correctness": 3.0,
+    "clarity": 5.0,
+    "terminology": 2.0,
+    "efficiency": 4.0
+  },
+  {
+    "question": "73. How does Copilot assist with complex formulas?",
+    "answer": "I'm not exactly sure, but I think Copilot might help by suggesting some formulas automatically.",
+    "type": "Excel 365 Copilot-Specific",
+    "correctness": 3.0,
+    "clarity": 5.0,
+    "terminology": 2.0,
+    "efficiency": 4.0
+  },
+  {
+    "question": "75. How does Copilot integrate with Power BI?",
+    "answer": "I think Copilot helps somewhat with Power BI reports, but I'm not sure exactly how it integrates or what features it provides.",
+    "type": "Excel 365 Copilot-Specific",
+    "correctness": 2.0,
+    "clarity": 5.0,
+    "terminology": 2.0,
+    "efficiency": 3.0
+  },
+  {
+    "question": "76. How do you connect Excel to Power BI?",
+    "answer": "I think you open Excel and just drag the file into Power BI or something similar, but I'm not exactly sure how the connection works.",
+    "type": "Power BI Integration with Excel",
+    "correctness": 0.2,
+    "clarity": 0.5,
+    "terminology": 0.3,
+    "efficiency": 0.4
+  },
+  {
+    "question": "77. How do you use Analyze in Excel with Power BI?",
+    "answer": "Analyze in Excel is used by connecting Excel to a Power BI dataset, allowing you to create PivotTables in Excel based on Power BI data, but I'm not sure about the exact steps or how to refresh the data.",
+    "type": "Power BI Integration with Excel",
+    "correctness": 4.0,
+    "clarity": 5.0,
+    "terminology": 4.0,
+    "efficiency": 4.0
+  },
+  {
+    "question": "78. How do you export Power BI visuals to Excel?",
+    "answer": "I'm not sure about the exact steps to export Power BI visuals to Excel, but I think you might right-click on the visual and look for an export option there.",
+    "type": "Power BI Integration with Excel",
+    "correctness": 3.0,
+    "clarity": 5.0,
+    "terminology": 4.0,
+    "efficiency": 4.0
+  },
+  {
+    "question": "79. How do you refresh Excel data connected to Power BI?",
+    "answer": "You can refresh Excel data connected to Power BI by opening the dataset in Power BI and clicking the Refresh button, or by setting up a scheduled refresh if supported.",
+    "type": "Power BI Integration with Excel",
+    "correctness": 4.0,
+    "clarity": 6.0,
+    "terminology": 5.0,
+    "efficiency": 5.0
+  },
+  {
+    "question": "80. How do you combine multiple Excel files into Power BI?",
+    "answer": "You can import each Excel file individually into Power BI and then use Append Queries in Power Query Editor to combine them into a single table.",
+    "type": "Power BI Integration with Excel",
+    "correctness": 6.0,
+    "clarity": 7.0,
+    "terminology": 6.0,
+    "efficiency": 5.0
+  },
+  {
+    "question": "81. How do you use Power Query in Excel and Power BI?",
+    "answer": "Um, I'm not completely sure but I think Power Query is used in Excel and Power BI to do some sort of data processing or cleaning. I don't really know the details or how they differ between the two applications.",
+    "type": "Power BI Integration with Excel",
+    "correctness": 2.0,
+    "clarity": 3.0,
+    "terminology": 1.5,
+    "efficiency": 2.0
+  },
+  {
+    "question": "82. How do you schedule data refreshes for Power BI-integrated Excel files?",
+    "answer": "I'm not exactly sure, but I think you might schedule data refresh for Power BI-integrated Excel files through some refresh settings in Power BI Service, maybe by enabling a refresh option or something similar.",
+    "type": "Power BI Integration with Excel",
+    "correctness": 2.0,
+    "clarity": 3.0,
+    "terminology": 2.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "83. How do you use Excel to create a project timeline?",
+    "answer": "I'm not sure exactly, but I think you can maybe use some charts and list your project tasks with dates. Perhaps starting with a template might help.",
+    "type": "Scenario-Based Excel",
+    "correctness": 3.0,
+    "clarity": 4.0,
+    "terminology": 2.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "84. How do you track expenses by category?",
+    "answer": "I guess you could just write down amounts next to category names in a sheet, but I'm not sure about the best way to organize or analyze it.",
+    "type": "Scenario-Based Excel",
+    "correctness": 2.0,
+    "clarity": 3.0,
+    "terminology": 1.5,
+    "efficiency": 2.0
+  },
+  {
+    "question": "85. How do you calculate employee turnover rates in Excel?",
+    "answer": "Employee turnover rate is calculated by dividing the number of employees who left by the total employees and then multiplying by 100.",
+    "type": "Scenario-Based Excel",
+    "correctness": 4.0,
+    "clarity": 6.0,
+    "terminology": 3.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "86. How do you clean messy datasets in Excel?",
+    "answer": "I'm not exactly sure, but maybe you can use formulas or just delete bad parts manually.",
+    "type": "Scenario-Based Excel",
+    "correctness": 2.0,
+    "clarity": 3.0,
+    "terminology": 1.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "87. How do you reconcile financial data?",
+    "answer": "I think you might use some formulas to check if the numbers add up correctly, maybe with SUM or something similar, but I\u2019m not exactly sure how reconciliation works in detail.",
+    "type": "Scenario-Based Excel",
+    "correctness": 3.0,
+    "clarity": 4.0,
+    "terminology": 2.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "88. How do you perform scenario analysis in Excel?",
+    "answer": "I think you can use some kind of data table or just change values manually to see different results, but I'm not sure of the exact steps or tools in Excel for scenario analysis.",
+    "type": "Scenario-Based Excel",
+    "correctness": 2.0,
+    "clarity": 4.0,
+    "terminology": 3.0,
+    "efficiency": 1.0
+  },
+  {
+    "question": "89. How do you calculate the weighted average in Excel?",
+    "answer": "You just add all the numbers and then divide by the count.",
+    "type": "Scenario-Based Excel",
+    "correctness": 2.0,
+    "clarity": 7.0,
+    "terminology": 1.0,
+    "efficiency": 3.0
+  },
+  {
+    "question": "90. How do you identify outliers in a dataset?",
+    "answer": "I think outliers are values that are far from most data points, maybe you can spot them by sorting the data or just looking for really high or low numbers.",
+    "type": "Scenario-Based Excel",
+    "correctness": 2.0,
+    "clarity": 4.0,
+    "terminology": 1.0,
+    "efficiency": 3.0
+  },
+  {
+    "question": "91. What is the purpose of dynamic named ranges in Excel?",
+    "answer": "Dynamic named ranges in Excel are ranges that change size automatically when you add or remove data, so your formulas always use the right data.",
+    "type": "Important Excel Interview",
+    "correctness": 0.7,
+    "clarity": 0.8,
+    "terminology": 0.7,
+    "efficiency": 0.9
+  },
+  {
+    "question": "93. How do you visualize task dependencies in Excel?",
+    "answer": "You can try using a simple bar chart and manually add arrows to show dependencies between tasks.",
+    "type": "Important Excel Interview",
+    "correctness": 2.0,
+    "clarity": 5.0,
+    "terminology": 2.0,
+    "efficiency": 3.0
+  },
+  {
+    "question": "94. What is the RANK function, and how is it used?",
+    "answer": "The RANK function returns the rank of a number compared to others in a list, showing which place the number holds.",
+    "type": "Important Excel Interview",
+    "correctness": 5.0,
+    "clarity": 7.0,
+    "terminology": 4.0,
+    "efficiency": 8.0
+  },
+  {
+    "question": "95. How do you compare year-over-year (YoY) performance in Excel?",
+    "answer": "I think you can just look at the numbers from this year and last year side by side, then maybe subtract one from the other or something like that in Excel.",
+    "type": "Important Excel Interview",
+    "correctness": 2.0,
+    "clarity": 3.0,
+    "terminology": 1.5,
+    "efficiency": 2.0
+  },
+  {
+    "question": "96. How do you normalize data in Excel?",
+    "answer": "I think you just divide each data point by the total sum of all data points to normalize it.",
+    "type": "Important Excel Interview",
+    "correctness": 2.0,
+    "clarity": 4.0,
+    "terminology": 2.0,
+    "efficiency": 5.0
+  },
+  {
+    "question": "97. How do you protect sensitive data in Excel?",
+    "answer": "You can protect sensitive data in Excel by locking cells and hiding formulas sometimes, but I am not sure about the full process or best practices.",
+    "type": "Important Excel Interview",
+    "correctness": 3.0,
+    "clarity": 5.0,
+    "terminology": 2.0,
+    "efficiency": 4.0
+  },
+  {
+    "question": "98. How do you create a performance dashboard in Excel?",
+    "answer": "Uh, to make a performance dashboard in Excel, I guess you just put some charts on a sheet, maybe use filters? I'm not sure about the exact steps or tools involved.",
+    "type": "Important Excel Interview",
+    "correctness": 2.0,
+    "clarity": 3.0,
+    "terminology": 1.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "99. What is the difference between absolute and relative cell references?",
+    "answer": "Absolute references always refer to one fixed cell, while relative references change when you copy the formula to another cell.",
+    "type": "Important Excel Interview",
+    "correctness": 0.7,
+    "clarity": 0.8,
+    "terminology": 0.6,
+    "efficiency": 0.7
+  },
+  {
+    "question": "100. How do you use Excel to calculate depreciation?",
+    "answer": "I'm not sure exactly how to calculate depreciation in Excel, but I think you could just divide the cost of an asset by its age or something like that.",
+    "type": "Important Excel Interview",
+    "correctness": 2.0,
+    "clarity": 5.0,
+    "terminology": 1.0,
+    "efficiency": 3.0
+  },
+  {
+    "question": "101. How do you use Solver for optimization problems?",
+    "answer": "Solver is an Excel tool to find the best value by changing some cells. You set an objective cell and some changing cells, then press solve. It tries to optimize the objective.",
+    "type": "Important Excel Interview",
+    "correctness": 3.0,
+    "clarity": 5.0,
+    "terminology": 3.0,
+    "efficiency": 4.0
+  },
+  {
+    "question": "102. How do you calculate the correlation between two datasets?",
+    "answer": "I think you can just average the two datasets separately and then subtract one average from the other to find correlation, but I'm not sure if that's correct.",
+    "type": "Important Excel Interview",
+    "correctness": 2.0,
+    "clarity": 5.0,
+    "terminology": 2.0,
+    "efficiency": 3.0
+  },
+  {
+    "question": "103. How do you export Excel charts into PowerPoint?",
+    "answer": "I\u2019m not sure exactly, but I think you could try copying the chart in Excel and then pasting it into PowerPoint.",
+    "type": "Important Excel Interview",
+    "correctness": 4.0,
+    "clarity": 5.0,
+    "terminology": 3.0,
+    "efficiency": 3.0
+  },
+  {
+    "question": "104. How do you create a Histogram in Excel?",
+    "answer": "You select your data and then try to make a chart that looks like a histogram by using some bar chart options.",
+    "type": "Important Excel Interview",
+    "correctness": 2.0,
+    "clarity": 3.0,
+    "terminology": 1.5,
+    "efficiency": 1.0
+  },
+  {
+    "question": "105. How does Excel 365 Copilot help with insights?",
+    "answer": "Excel 365 Copilot helps with insights by suggesting formulas and highlighting data trends.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 4.0,
+    "clarity": 6.0,
+    "terminology": 5.0,
+    "efficiency": 7.0
+  },
+  {
+    "question": "106. How do you automate repetitive tasks with Copilot?",
+    "answer": "You can somewhat automate repetitive tasks with Copilot by asking it to do things like add formulas or highlight data, but I'm not sure exactly how to set it up for full automation.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 3.0,
+    "clarity": 5.0,
+    "terminology": 3.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "107. How do you use the IMAGE function in Excel 365?",
+    "answer": "The IMAGE function in Excel 365 lets you insert pictures directly into cells from a URL. You just need to provide the image URL, and optionally you can specify alternative text, sizing options, and custom dimensions. The syntax is =IMAGE(source, [alt_text], [sizing], [height], [width]).",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 9.0,
+    "clarity": 9.0,
+    "terminology": 8.0,
+    "efficiency": 8.0
+  },
+  {
+    "question": "108. How do you analyze multiple datasets using Copilot?",
+    "answer": "I'm not sure exactly how to use Copilot for multiple datasets, but I think you might just load them in and then ask Copilot some basic questions about each one separately.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 2.0,
+    "clarity": 3.0,
+    "terminology": 2.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "109. How does Excel 365 Copilot simplify report generation?",
+    "answer": "I'm not completely sure, but I think Excel 365 Copilot helps with making reports faster by maybe automating some steps or suggesting things to include.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 3.0,
+    "clarity": 5.0,
+    "terminology": 2.0,
+    "efficiency": 4.0
+  },
+  {
+    "question": "110. How do you use the UNIQUE function in Excel 365?",
+    "answer": "The UNIQUE function is for getting unique values from an Excel range, but I am not sure how to use its optional arguments or when it spills the results.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 0.4,
+    "clarity": 0.6,
+    "terminology": 0.5,
+    "efficiency": 0.5
+  },
+  {
+    "question": "111. How do you use the SEQUENCE function in Excel 365?",
+    "answer": "The SEQUENCE function in Excel 365 generates an array of sequential numbers based on parameters for rows, columns, start value, and step increment.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 0.7,
+    "clarity": 0.8,
+    "terminology": 0.6,
+    "efficiency": 0.7
+  },
+  {
+    "question": "112. How do you use the SORTBY function?",
+    "answer": "SORTBY is used to arrange data by specifying a main array to sort and one or more arrays to determine sorting order, optionally choosing ascending or descending order for each.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 6.0,
+    "clarity": 5.0,
+    "terminology": 5.0,
+    "efficiency": 4.0
+  },
+  {
+    "question": "113. How do you use the RANDARRAY function?",
+    "answer": "The RANDARRAY function generates random numbers in rows and columns, but I don't remember the exact syntax or options.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 0.4,
+    "clarity": 0.6,
+    "terminology": 0.4,
+    "efficiency": 0.3
+  },
+  {
+    "question": "114. How do you use the TEXTJOIN function?",
+    "answer": "TEXTJOIN is a function that joins text from multiple cells using a delimiter, but I don't remember the exact syntax or how to set the options.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 3.0,
+    "clarity": 4.0,
+    "terminology": 2.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "115. How do you use the TOROW function?",
+    "answer": "I think the TOROW function is for copying rows, but I\u2019m not sure about the exact syntax or parameters.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 0.3,
+    "clarity": 0.6,
+    "terminology": 0.4,
+    "efficiency": 0.2
+  },
+  {
+    "question": "116. How do you use the TOCOL function?",
+    "answer": "The TOCOL function in Excel is used to convert an array or range into a single column of data, optionally ignoring blanks or errors and scanning by row or column.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 6.0,
+    "clarity": 7.0,
+    "terminology": 5.0,
+    "efficiency": 6.0
+  },
+  {
+    "question": "117. How do you create interactive slicers for Pivot Tables?",
+    "answer": "You can add slicers from the PivotTable Analyze tab by clicking Insert Slicer, then choose the fields you want, but I\u2019m not sure about connecting them to multiple pivot tables.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 0.5,
+    "clarity": 0.6,
+    "terminology": 0.7,
+    "efficiency": 0.5
+  },
+  {
+    "question": "118. How do you create a Gantt chart in Excel?",
+    "answer": "You can make a Gantt chart in Excel by selecting your data and trying to use a bar chart. I'm not sure about the exact steps, but maybe you insert some kind of stacked bar chart and then adjust the dates manually.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 2.0,
+    "clarity": 4.0,
+    "terminology": 2.0,
+    "efficiency": 3.0
+  },
+  {
+    "question": "119. How do you create a cumulative sum in Excel?",
+    "answer": "I think you can try using the SUM function, maybe something like SUM(B2:B5), but I'm not exactly sure how to extend it for a cumulative total.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 3.0,
+    "clarity": 4.0,
+    "terminology": 2.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "120. How do you use the SUBSTITUTE function?",
+    "answer": "SUBSTITUTE changes some text in a cell by replacing it with different text.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 4.0,
+    "clarity": 6.0,
+    "terminology": 3.0,
+    "efficiency": 5.0
+  },
+  {
+    "question": "121. How do you calculate working days between two dates?",
+    "answer": "You can subtract the start date from the end date and then remove weekends manually.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 2.0,
+    "clarity": 3.0,
+    "terminology": 2.0,
+    "efficiency": 1.0
+  },
+  {
+    "question": "122. How do you calculate a percentage difference between two values?",
+    "answer": "You subtract one value from the other, then divide by the first value, and multiply by 100.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 3.0,
+    "clarity": 4.0,
+    "terminology": 2.0,
+    "efficiency": 3.0
+  },
+  {
+    "question": "123. How do you identify duplicates in Excel?",
+    "answer": "You can look for duplicates by checking if values repeat in a column, maybe using conditional formatting or a counting formula, but I'm not sure of the exact steps or formulas.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 4.0,
+    "clarity": 6.0,
+    "terminology": 3.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "124. How do you transpose data from rows to columns?",
+    "answer": "You can just copy the data and paste it somewhere else; Excel will switch rows and columns automatically.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 3.0,
+    "clarity": 5.0,
+    "terminology": 2.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "125. How do you use the LAMBDA function in Excel 365?",
+    "answer": "The LAMBDA function in Excel 365 is used to define custom functions by specifying parameters and a calculation to execute, allowing you to reuse complex formulas without VBA.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 6.0,
+    "clarity": 5.0,
+    "terminology": 6.0,
+    "efficiency": 4.0
+  },
+  {
+    "question": "126. How do you apply conditional formatting based on another cell\u2019s value?",
+    "answer": "You can use conditional formatting by selecting the cells and setting a rule based on values, but I'm not sure how to base it on another cell's value exactly.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 2.0,
+    "clarity": 4.0,
+    "terminology": 3.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "127. How do you group data in a Pivot Table?",
+    "answer": "To group data in a Pivot Table, you can select the items you want to group, right-click, and choose 'Group' from the context menu. This creates a group of selected items to analyze together.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 6.0,
+    "clarity": 7.0,
+    "terminology": 5.0,
+    "efficiency": 6.0
+  },
+  {
+    "question": "128. How do you remove extra spaces from text in Excel?",
+    "answer": "You can use the TRIM function in Excel like =TRIM(A1) to remove extra spaces from text.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 6.0,
+    "clarity": 7.0,
+    "terminology": 6.5,
+    "efficiency": 6.0
+  },
+  {
+    "question": "129. How do you use the DAX language in Power Pivot?",
+    "answer": "DAX is a formula language used in Power Pivot to create calculations, like columns or measures, although I'm not quite sure about the specific syntax or full capabilities.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 5.0,
+    "clarity": 6.0,
+    "terminology": 5.0,
+    "efficiency": 4.0
+  },
+  {
+    "question": "130. How do you use the AVERAGEIF function?",
+    "answer": "AVERAGEIF is used to find the average of numbers based on a condition in a range.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 3.0,
+    "clarity": 4.0,
+    "terminology": 2.0,
+    "efficiency": 3.0
+  },
+  {
+    "question": "131. How do you highlight top 10 values in Excel?",
+    "answer": "You can try to select the cells and maybe sort them to see the highest values or use some kind of highlight option from the menu.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 2.0,
+    "clarity": 3.0,
+    "terminology": 1.0,
+    "efficiency": 1.0
+  },
+  {
+    "question": "132. How do you automate repetitive tasks in Excel?",
+    "answer": "I guess maybe you can use some sort of tool or something like macros, but honestly, I'm not sure exactly how to do it.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 2.0,
+    "clarity": 3.0,
+    "terminology": 2.0,
+    "efficiency": 1.0
+  },
+  {
+    "question": "133. How do you calculate the mode of a dataset in Excel?",
+    "answer": "You can calculate the mode in Excel using the formula =MODE(range), where 'range' is your dataset.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 0.7,
+    "clarity": 0.8,
+    "terminology": 0.7,
+    "efficiency": 0.6
+  },
+  {
+    "question": "134. How do you create an amortization schedule in Excel?",
+    "answer": "You can make an amortization schedule by listing the loan terms in Excel and then using the PMT function to calculate payments. After that, you fill out columns for interest, principal, and balance for each month manually or with simple formulas.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 3.0,
+    "clarity": 5.0,
+    "terminology": 3.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "135. How do you use the CONCAT function?",
+    "answer": "CONCAT is a function to join values in Excel, but I don't remember exactly how to use it or its syntax.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 2.0,
+    "clarity": 5.0,
+    "terminology": 2.0,
+    "efficiency": 1.0
+  },
+  {
+    "question": "136. How do you use Excel to manage inventory?",
+    "answer": "I guess you just type the list of items and maybe keep track of quantities in cells. Then you could sort or filter them somehow, but I'm not sure exactly how to automate or track reorders in Excel.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 3.0,
+    "clarity": 6.0,
+    "terminology": 2.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "137. How do you find the nth largest value in a dataset?",
+    "answer": "You can use the LARGE function like =LARGE(range, n) to find the nth largest value.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 0.7,
+    "clarity": 0.8,
+    "terminology": 0.6,
+    "efficiency": 0.7
+  },
+  {
+    "question": "138. How do you calculate Net Present Value (NPV) in Excel?",
+    "answer": "I think you just use the NPV function with a discount rate and cash flows listed, but I am not sure exactly how to include the initial investment.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 2.0,
+    "clarity": 4.0,
+    "terminology": 3.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "139. How do you create an interactive data summary in Excel?",
+    "answer": "You create an interactive data summary by typing some formulas like SUM and AVERAGE in cells and maybe adding some charts.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 3.0,
+    "clarity": 6.0,
+    "terminology": 4.0,
+    "efficiency": 3.0
+  },
+  {
+    "question": "140. How do you use the OFFSET function for dynamic ranges?",
+    "answer": "I think the OFFSET function moves a certain number of rows and columns from a starting cell and returns a range, but I'm not sure exactly how it makes ranges dynamic.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 3.0,
+    "clarity": 5.0,
+    "terminology": 4.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "141. How do you calculate the median in Excel?",
+    "answer": "You can calculate the median in Excel using the MEDIAN function, like =MEDIAN(range), but I'm not exactly sure how to use it fully.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 0.5,
+    "clarity": 0.7,
+    "terminology": 0.6,
+    "efficiency": 0.4
+  },
+  {
+    "question": "142. How do you analyze time-series data in Excel?",
+    "answer": "I guess you could maybe just make a chart and look at it, but I'm not sure about the detailed steps or tools in Excel for time-series analysis.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 2.0,
+    "clarity": 3.0,
+    "terminology": 1.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "143. How do you create a formula to compare two lists?",
+    "answer": "You can use a simple IF formula like =IF(A1=B1, TRUE, FALSE) to compare two lists.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 3.0,
+    "clarity": 5.0,
+    "terminology": 2.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "144. How do you apply a custom number format?",
+    "answer": "You just open Excel, find the number format option, and then type something in that box to make numbers look different.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 2.0,
+    "clarity": 3.0,
+    "terminology": 1.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "145. How do you use the HYPERLINK function?",
+    "answer": "The HYPERLINK function creates a clickable link in Excel that you can use to open a web page or document.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 0.5,
+    "clarity": 0.8,
+    "terminology": 0.4,
+    "efficiency": 0.7
+  },
+  {
+    "question": "146. How do you calculate the frequency of data in Excel?",
+    "answer": "You can calculate the frequency of data in Excel by using the FREQUENCY function, which counts how many values fall into specified intervals or bins.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 6.0,
+    "clarity": 7.0,
+    "terminology": 5.0,
+    "efficiency": 6.0
+  },
+  {
+    "question": "147. How do you use the ROUNDDOWN function?",
+    "answer": "ROUNDDOWN is a function that you use to round numbers in Excel, but I\u2019m not sure exactly how it works or what arguments it takes.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 2.0,
+    "clarity": 4.0,
+    "terminology": 2.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "148. How do you use the ROUNDUP function?",
+    "answer": "ROUNDUP is used to round numbers, but I am not sure exactly how it works or what the specific arguments are.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 0.2,
+    "clarity": 0.6,
+    "terminology": 0.3,
+    "efficiency": 0.4
+  },
+  {
+    "question": "149. How do you highlight weekends in a date range?",
+    "answer": "I guess you could try using Conditional Formatting with a formula like =WEEKDAY(A1)>5, but I'm not sure if that works properly or if other steps are needed.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 0.5,
+    "clarity": 0.7,
+    "terminology": 0.6,
+    "efficiency": 0.4
+  },
+  {
+    "question": "150. How do you analyze customer churn in Excel?",
+    "answer": "I guess you could just count how many customers stopped buying and divide by total customers, but I'm not sure how exactly to set that up in Excel.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 3.0,
+    "clarity": 4.0,
+    "terminology": 2.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "151. How do you calculate payback period in Excel?",
+    "answer": "You can calculate the payback period by dividing the initial investment by the annual cash inflow in Excel.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 0.6,
+    "clarity": 0.8,
+    "terminology": 0.6,
+    "efficiency": 0.7
+  },
+  {
+    "question": "152. How do you use data bars in conditional formatting?",
+    "answer": "Data bars are used in conditional formatting by selecting cells and then choosing the data bar option, which shows colored bars according to values.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 0.4,
+    "clarity": 0.6,
+    "terminology": 0.5,
+    "efficiency": 0.5
+  },
+  {
+    "question": "153. How do you find blank cells in a range?",
+    "answer": "I think you can try using COUNTBLANK with the range, like =COUNTBLANK(A1:A10), but I'm not sure if that will highlight the blank cells or just count them.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 0.6,
+    "clarity": 0.7,
+    "terminology": 0.5,
+    "efficiency": 0.5
+  },
+  {
+    "question": "154. How do you calculate growth rates in Excel?",
+    "answer": "You can calculate growth rates by subtracting the earlier value from the later value and dividing by the earlier value, then formatting as a percentage.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 0.4,
+    "clarity": 0.7,
+    "terminology": 0.3,
+    "efficiency": 0.6
+  },
+  {
+    "question": "155. How do you use Power Automate with Excel?",
+    "answer": "I think you just open Excel and then do some stuff in Power Automate to connect them, but I'm not sure exactly how triggers or flows work with Excel.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 2.0,
+    "clarity": 4.0,
+    "terminology": 1.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "156. How do you use a scatter plot in Excel?",
+    "answer": "I think you select your data and then click on some chart type that looks like dots to create a scatter plot, but I\u2019m not sure exactly which menu or steps.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 2.0,
+    "clarity": 3.0,
+    "terminology": 1.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "157. How do you calculate a breakeven point in Excel?",
+    "answer": "You can try to calculate the breakeven point in Excel by dividing fixed costs by the difference between revenue and variable costs, but I\u2019m not exactly sure how to set it up correctly.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 3.0,
+    "clarity": 4.0,
+    "terminology": 3.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "158. How do you create a running balance in Excel?",
+    "answer": "I think you can create a running balance by summing deposits and withdrawals manually, but I'm not exactly sure of the formula.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 2.0,
+    "clarity": 3.0,
+    "terminology": 2.0,
+    "efficiency": 1.0
+  },
+  {
+    "question": "159. How do you find cells with errors in Excel?",
+    "answer": "You can find cells with errors by using the ISERROR function in a formula to check each cell, or by using Excel's 'Go To Special' feature to select cells with errors.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 6.0,
+    "clarity": 7.0,
+    "terminology": 6.0,
+    "efficiency": 6.0
+  },
+  {
+    "question": "160. How do you automate email notifications with Excel?",
+    "answer": "I'm not exactly sure, but maybe you can use a macro or VBA script to send emails from Excel, or possibly use some kind of automation tool.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 2.0,
+    "clarity": 3.0,
+    "terminology": 2.0,
+    "efficiency": 1.0
+  },
+  {
+    "question": "161. How do you extract data from a web page into Excel?",
+    "answer": "You can extract data from a web page into Excel by using the Data tab and choosing the 'From Web' option, then entering the web page URL and importing the data tables available.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 6.0,
+    "clarity": 8.0,
+    "terminology": 5.0,
+    "efficiency": 6.0
+  },
+  {
+    "question": "162. How do you consolidate data from multiple workbooks?",
+    "answer": "You can consolidate data from multiple workbooks by opening them and manually copying and pasting the data into one workbook.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 3.0,
+    "clarity": 7.0,
+    "terminology": 2.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "163. How do you validate data entry in Excel?",
+    "answer": "You validate data entry in Excel by going to the Data tab and using the Data Validation feature to set rules like number ranges or text length, but I am not sure about the detailed steps or other options.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 4.0,
+    "clarity": 6.0,
+    "terminology": 5.0,
+    "efficiency": 4.0
+  },
+  {
+    "question": "164. How do you forecast data trends in Excel?",
+    "answer": "I think you can use some formulas like average or something, but I\u2019m not exactly sure how to apply them to forecast trends in Excel.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 2.0,
+    "clarity": 4.0,
+    "terminology": 1.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "165. How do you summarize large datasets quickly?",
+    "answer": "I guess you could try using SUM functions or maybe sorting the data a bit, but I'm not exactly sure of the best way to do it quickly.",
+    "type": "Excel 365 Advanced Excel Interview",
+    "correctness": 2.0,
+    "clarity": 4.0,
+    "terminology": 2.0,
+    "efficiency": 1.0
+  },
+  {
+    "question": "166. How do you calculate ROI for a marketing campaign in Excel?",
+    "answer": "ROI is calculated by dividing the marketing cost by the sales revenue.",
+    "type": "Marketing-Specific Excel",
+    "correctness": 2.0,
+    "clarity": 6.0,
+    "terminology": 3.0,
+    "efficiency": 4.0
+  },
+  {
+    "question": "167. How do you track marketing campaign performance in Excel?",
+    "answer": "I guess you could just type some numbers in Excel and maybe add a chart to see if your campaign is doing okay.",
+    "type": "Marketing-Specific Excel",
+    "correctness": 2.0,
+    "clarity": 4.0,
+    "terminology": 1.0,
+    "efficiency": 3.0
+  },
+  {
+    "question": "168. How do you calculate customer acquisition cost (CAC)?",
+    "answer": "Customer acquisition cost (CAC) is calculated by adding all sales and marketing expenses and then dividing by the number of new customers acquired.",
+    "type": "Marketing-Specific Excel",
+    "correctness": 7.0,
+    "clarity": 6.0,
+    "terminology": 5.0,
+    "efficiency": 6.0
+  },
+  {
+    "question": "169. How do you analyze customer segmentation in Excel?",
+    "answer": "I think you can just sort the customer data by their names and then look for purchase patterns, but I'm not sure about the exact steps.",
+    "type": "Marketing-Specific Excel",
+    "correctness": 2.0,
+    "clarity": 4.0,
+    "terminology": 1.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "170. How do you calculate the conversion rate in Excel?",
+    "answer": "I think you just divide the total number of visits by the total sales to get the conversion rate, but I'm not sure about the percent formatting or exact formula.",
+    "type": "Marketing-Specific Excel",
+    "correctness": 3.0,
+    "clarity": 5.0,
+    "terminology": 2.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "171. How do you create a financial model in Excel?",
+    "answer": "You basically start by entering some numbers and use formulas to calculate totals, maybe use some charts too.",
+    "type": "Finance-Specific Excel",
+    "correctness": 2.0,
+    "clarity": 3.0,
+    "terminology": 1.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "172. How do you perform a sensitivity analysis in Excel?",
+    "answer": "I think you just change some numbers manually to see what happens to the results, but I'm not sure about specific Excel features for sensitivity analysis.",
+    "type": "Finance-Specific Excel",
+    "correctness": 2.0,
+    "clarity": 4.0,
+    "terminology": 1.0,
+    "efficiency": 3.0
+  },
+  {
+    "question": "173. How do you calculate loan payments in Excel?",
+    "answer": "You calculate loan payments in Excel by using a function that takes the interest rate and loan term, though I'm not sure of the exact formula or details.",
+    "type": "Finance-Specific Excel",
+    "correctness": 3.0,
+    "clarity": 6.0,
+    "terminology": 2.0,
+    "efficiency": 4.0
+  },
+  {
+    "question": "175. How do you track and reconcile financial transactions in Excel?",
+    "answer": "I think you can maybe use some tables to list transactions and then try to add up amounts with a formula like SUM. Maybe conditional formatting to highlight discrepancies?",
+    "type": "Finance-Specific Excel",
+    "correctness": 3.0,
+    "clarity": 4.0,
+    "terminology": 2.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "176. How do you calculate employee turnover rates in Excel?",
+    "answer": "I think you just count the number of employees who left and maybe divide by the total number of employees, then multiply by 100, but I'm not sure exactly how to do it in Excel.",
+    "type": "HR-Specific Excel Interview",
+    "correctness": 0.3,
+    "clarity": 0.6,
+    "terminology": 0.3,
+    "efficiency": 0.4
+  },
+  {
+    "question": "177. How do you track employee attendance in Excel?",
+    "answer": "I guess you could try listing employee names in one column and then marking days they attend with an 'X' or something similar, but I'm not sure how to make it automatic or calculate attendance rates.",
+    "type": "HR-Specific Excel Interview",
+    "correctness": 3.0,
+    "clarity": 5.0,
+    "terminology": 2.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "178. How do you automate payroll calculations in Excel?",
+    "answer": "I'm not entirely sure, but I think you might just input the employee hours and rates manually and then multiply them to get payroll amounts.",
+    "type": "HR-Specific Excel Interview",
+    "correctness": 2.0,
+    "clarity": 4.0,
+    "terminology": 2.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "179. How do you create a training tracker in Excel?",
+    "answer": "I guess you start by listing employee names and training topics. Maybe use some basic Excel functions to track completion dates.",
+    "type": "HR-Specific Excel Interview",
+    "correctness": 3.0,
+    "clarity": 4.0,
+    "terminology": 2.0,
+    "efficiency": 3.0
+  },
+  {
+    "question": "180. How do you manage recruitment data in Excel?",
+    "answer": "I usually just type some names and notes in an Excel sheet. I don't use any formulas or tables for recruitment data.",
+    "type": "HR-Specific Excel Interview",
+    "correctness": 0.2,
+    "clarity": 0.5,
+    "terminology": 0.1,
+    "efficiency": 0.2
+  },
+  {
+    "question": "181. How do you create a project schedule in Excel?",
+    "answer": "You can create a project schedule in Excel by listing your project tasks in one column and their dates in the next columns, then use simple formulas to calculate durations. You might also add some colors manually to differentiate tasks.",
+    "type": "Project Management Specific Excel Interview",
+    "correctness": 3.0,
+    "clarity": 5.0,
+    "terminology": 2.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "182. How do you calculate project costs in Excel?",
+    "answer": "I'm not entirely sure, but I think you might sum up all the expenses in certain cells to estimate the project costs. Maybe use a formula like SUM to add things up.",
+    "type": "Project Management Specific Excel Interview",
+    "correctness": 3.0,
+    "clarity": 4.0,
+    "terminology": 2.0,
+    "efficiency": 3.0
+  },
+  {
+    "question": "183. How do you use Excel for resource allocation?",
+    "answer": "Uh, I guess you can make a list in Excel with resources and then maybe assign them to projects? I\u2019m not sure about the details or any formulas.",
+    "type": "Project Management Specific Excel Interview",
+    "correctness": 2.0,
+    "clarity": 3.0,
+    "terminology": 1.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "184. How do you track project progress using Excel?",
+    "answer": "I think you can track project progress in Excel by maybe listing tasks and marking them somehow, but I'm not exactly sure about the formulas or methods to calculate the actual progress or deadlines.",
+    "type": "Project Management Specific Excel Interview",
+    "correctness": 2.0,
+    "clarity": 4.0,
+    "terminology": 1.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "185. How do you identify project risks in Excel?",
+    "answer": "You can use Excel\u2019s basic functions like lists or conditional formatting to spot risks, though I\u2019m not entirely sure of the exact best practices.",
+    "type": "Project Management Specific Excel Interview",
+    "correctness": 2.0,
+    "clarity": 4.0,
+    "terminology": 2.0,
+    "efficiency": 3.0
+  },
+  {
+    "question": "186. How do you audit financial statements using Excel?",
+    "answer": "I'm not sure how to audit financial statements using Excel precisely, but I think it might involve checking formulas and comparing numbers manually.",
+    "type": "Chartered Accountant (CA) and Company Secretary (CS) Excel Interview",
+    "correctness": 2.0,
+    "clarity": 3.0,
+    "terminology": 1.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "188. How do you handle depreciation schedules in Excel?",
+    "answer": "I think you just list the asset cost and then divide by the number of years to get depreciation each year.",
+    "type": "Chartered Accountant (CA) and Company Secretary (CS) Excel Interview",
+    "correctness": 2.0,
+    "clarity": 7.0,
+    "terminology": 1.0,
+    "efficiency": 3.0
+  },
+  {
+    "question": "189. How do you calculate dividend payouts in Excel?",
+    "answer": "I'm not sure how to calculate dividend payouts in Excel, but maybe you could try dividing total dividends by the number of shares or just use a formula like =A2/B2 if those values are in those cells.",
+    "type": "Chartered Accountant (CA) and Company Secretary (CS) Excel Interview",
+    "correctness": 0.3,
+    "clarity": 0.5,
+    "terminology": 0.4,
+    "efficiency": 0.4
+  },
+  {
+    "question": "190. How do you track compliance deadlines in Excel?",
+    "answer": "You can note down deadlines in cells and maybe use colors manually to highlight upcoming dates.",
+    "type": "Chartered Accountant (CA) and Company Secretary (CS) Excel Interview",
+    "correctness": 2.0,
+    "clarity": 4.0,
+    "terminology": 1.0,
+    "efficiency": 2.0
+  },
+  {
+    "question": "191. How do you use Excel shortcuts to speed up workflows?",
+    "answer": "I guess you can use some keyboard shortcuts like Ctrl+C to copy and Ctrl+V to paste, but I'm not sure how else they'd speed up workflows.",
+    "type": "Excel Tricks and Shortcuts Interview",
+    "correctness": 0.5,
+    "clarity": 0.8,
+    "terminology": 0.6,
+    "efficiency": 0.4
+  },
+  {
+    "question": "192. How do you use Flash Fill in Excel?",
+    "answer": "Flash Fill is used by typing a pattern in the first few cells, then Excel automatically fills similar patterns in the other cells.",
+    "type": "Excel Tricks and Shortcuts Interview",
+    "correctness": 6.0,
+    "clarity": 7.0,
+    "terminology": 5.0,
+    "efficiency": 5.0
+  },
+  {
+    "question": "193. How do you create drop-down lists in Excel?",
+    "answer": "You can create a drop-down list in Excel by selecting a cell and typing the options separated by commas. I think there's a menu called Data Validation but I'm not sure how to use it properly.",
+    "type": "Excel Tricks and Shortcuts Interview",
+    "correctness": 3.0,
+    "clarity": 5.0,
+    "terminology": 4.0,
+    "efficiency": 3.0
+  },
+  {
+    "question": "194. How do you use Quick Analysis in Excel?",
+    "answer": "You can use Quick Analysis in Excel by selecting your data and clicking the small button that appears at the bottom right corner, or press Ctrl+Q. It lets you quickly do things like apply formatting and insert charts.",
+    "type": "Excel Tricks and Shortcuts Interview",
+    "correctness": 5.0,
+    "clarity": 6.0,
+    "terminology": 4.0,
+    "efficiency": 5.0
+  },
+  {
+    "question": "195. How do you split text into columns without formulas?",
+    "answer": "Maybe you can just press some keys or drag the column border to split it into parts, but I'm not sure of the exact method.",
+    "type": "Excel Tricks and Shortcuts Interview",
+    "correctness": 0.2,
+    "clarity": 0.3,
+    "terminology": 0.1,
+    "efficiency": 0.2
+  },
+  {
+    "question": "196. How do you navigate large datasets efficiently?",
+    "answer": "I think you can just scroll manually, or maybe use the mouse wheel slowly. Sometimes I\u2019m not sure if Excel has specific tools for this.",
+    "type": "Excel Tricks and Shortcuts Interview",
+    "correctness": 2.0,
+    "clarity": 3.0,
+    "terminology": 1.0,
+    "efficiency": 1.0
+  },
+  {
+    "question": "198. How do you create dynamic named ranges?",
+    "answer": "I think you create dynamic named ranges by selecting some cells and then naming the range. Maybe you just define it once and it automatically updates when you add data, but I am not exactly sure how it works.",
+    "type": "Excel Tricks and Shortcuts Interview",
+    "correctness": 2.0,
+    "clarity": 6.0,
+    "terminology": 3.0,
+    "efficiency": 5.0
+  },
+  {
+    "question": "199. How do you quickly sum data in Excel?",
+    "answer": "I think you just type =SUM and then maybe pick the cells, or you can click something like an autosum button, but I'm not sure exactly how it works.",
+    "type": "Excel Tricks and Shortcuts Interview",
+    "correctness": 4.0,
+    "clarity": 5.0,
+    "terminology": 3.0,
+    "efficiency": 3.0
+  },
+  {
+    "question": "200. How do you lock cells in Excel?",
+    "answer": "You can lock cells in Excel by selecting the cells, right-clicking them, choosing Format Cells, going to the Protection tab, and checking the Locked box. Then you need to protect the sheet from the Review tab to enforce the locking.",
+    "type": "Excel Tricks and Shortcuts Interview",
+    "correctness": 6.0,
+    "clarity": 6.5,
+    "terminology": 6.0,
+    "efficiency": 5.0
+  }
+]
