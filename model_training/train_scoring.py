@@ -11,7 +11,7 @@ import joblib
 
 
 # Load your dataset
-df = pd.read_json(r"C:\Users\karti\OneDrive\Desktop\excel interview\dataset\excel_qa_clean_core_scores.json")
+df = pd.read_json(r"C:\Users\karti\OneDrive\Desktop\excel interview\dataset\excel_qa_augmented_dynamic_with_scores_structured.json")
 
 # Combine question, answer and type into one text feature
 df["text"] = df["question"] + " " + df["answer"] + " " + df["type"]
@@ -58,8 +58,8 @@ print(f"\nOverall training R2 score: {r2_score(y_train, y_train_pred)}")
 print(f"Overall testing R2 score: {r2_score(y_test, y_test_pred)}")
 
 # Save model and vectorizer
-joblib.dump(reg, "ridge_multioutput_regressor.joblib")
-joblib.dump(vectorizer, "tfidf_vectorizer.joblib")
+joblib.dump(reg, "ridge_multioutput_regressor_updated_model.joblib")
+joblib.dump(vectorizer, "tfidf_vectorizer_updated_model.joblib")
 print("\nTrained model and vectorizer saved successfully.")
 
 # --- Begin plotting and evaluation (unchanged) ---
